@@ -8,6 +8,7 @@ Please check if you have the following software installed:
 - [Install VS Code](https://code.visualstudio.com/download)
 - [Install Godot](https://godotengine.org/download/)
 - [Install Blender](https://www.blender.org/download/)
+- Optional: [Install Unreal Engine](https://www.unrealengine.com/en-US/download)
 
 
 Please then check if you have the following already set up:
