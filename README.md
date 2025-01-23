@@ -1,5 +1,5 @@
 # GGJ25
-For the Global Game Jam 2025
+For Oana, Ari, CJ, Reto and Jo at the Global Game Jam 2025
 
 Please check if you have the following software installed:
 
