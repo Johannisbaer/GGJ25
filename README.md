@@ -14,7 +14,7 @@ Please then check if you have the following already set up:
 
 - [Create a Github account](https://github.com/join)
 - [Sign into Github with VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)
-- Call me to check your install. Reward: Free AI helper to write code
+- Call me to check your install (set: git config http.postBuffer 524288000) Reward: Free AI helper to write code
 - Optional, but best practise: [Create a virtual environment for Python](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 - Optional for Python/AI gaming: Pygame install
 
