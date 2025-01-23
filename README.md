@@ -17,4 +17,5 @@ Please then check if you have the following already set up:
 - Call me to check your install (set: git config http.postBuffer 524288000) Reward: Free AI helper to write code
 - Optional, but best practise: [Create a virtual environment for Python](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 - Optional for Python/AI gaming: Pygame install
+- Optional for Godot: [Starter Assets](https://godotengine.org/asset-library/asset)
 
