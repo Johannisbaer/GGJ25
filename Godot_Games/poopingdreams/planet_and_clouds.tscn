@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d18ckagxgj85t"]
+
+[ext_resource type="PackedScene" uid="uid://cedgmcliyun4r" path="res://models/GGJ Planets_edited.glb" id="1_onm7n"]
+
+[node name="Planet and Clouds" instance=ExtResource("1_onm7n")]
+
+[node name="Clouds" parent="." index="0"]
+transform = Transform3D(0.0671104, -0.0141449, 0.00548967, 0.0153614, 0.0118815, -0.0415945, 0.0190456, 0.0402587, 0.0142045, -0.585974, 1.05132, 1.06078)
+
+[node name="Globe" parent="." index="1"]
+transform = Transform3D(0.545364, 0.710119, -0.678821, -0.0293648, 0.787845, 0.800579, 0.981939, -0.370836, 0.400955, -0.0608528, 1.42159, 0)
+
+[node name="Camera3D" type="Camera3D" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.81298, 1.95663)

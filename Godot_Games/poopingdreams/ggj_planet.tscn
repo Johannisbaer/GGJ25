@@ -1,9 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cnp1tqyy5t5xf"]
+[gd_scene load_steps=4 format=3 uid="uid://cnp1tqyy5t5xf"]
 
 [ext_resource type="PackedScene" uid="uid://bv1v7stk5s8ks" path="res://models/GGJ Planet.blend" id="1_6k2t0"]
 [ext_resource type="PackedScene" uid="uid://bsuv2n0wxilar" path="res://models/GGJ Planet.glb" id="2_cjv1k"]
+[ext_resource type="PackedScene" uid="uid://cedgmcliyun4r" path="res://models/GGJ Planets_edited.glb" id="3_kc64o"]
 
 [node name="GGJ Planet" instance=ExtResource("1_6k2t0")]
 
 [node name="GGJ Planet" parent="." index="2" instance=ExtResource("2_cjv1k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.84281, 0, -1.03657)
+
+[node name="GGJ Planets_edited" parent="." index="3" instance=ExtResource("3_kc64o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.91774, 0, 1.63741)
