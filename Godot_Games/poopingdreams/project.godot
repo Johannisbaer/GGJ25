@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="PoopingDreams"
-run/main_scene="res://models/GGJ Planets_edited.glb"
+run/main_scene="res://planet_and_clouds.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
