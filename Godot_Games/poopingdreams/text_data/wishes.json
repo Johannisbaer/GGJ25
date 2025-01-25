@@ -1,29 +1,1684 @@
 {
     "wishes": [
         {
-            "wish": "I wish for a sunny day",
-            "outcome_granted": "Your wish for a sunny day has been granted!",
-            "outcome_popped": "Your wish for a sunny day has popped."
+            "wish": "I wish people would stop eating animals",
+            "outcome_granted": "The CO2 levels go down drastically, bringing the world on the path to saving our climate as meat consumption becomes a thing of the past.",
+            "outcome_popped": "The world stays the same, while someone pets their puppy and enjoys a big-ass dry-aged steak from the prettiest cow in the region two months ago.",
+            "rating_outcome_granted": "+8",
+            "rating_outcome_popped": "-2"
         },
         {
-            "wish": "I wish for a new adventure",
-            "outcome_granted": "Your wish for a new adventure has been granted!",
-            "outcome_popped": "Your wish for a new adventure has popped."
+            "wish": "I wish everyone in the world would have all the food they can eat",
+            "outcome_granted": "The human death toll skyrockets as 80% of the population becomes obese, animals go extinct, and the climate crashes due to CO2 emissions.",
+            "outcome_popped": "The world stays the same; some people go hungry, but life carries on, and others still enjoy games.",
+            "rating_outcome_granted": "-9",
+            "rating_outcome_popped": "-3"
         },
         {
-            "wish": "I wish to meet new friends",
-            "outcome_granted": "Your wish to meet new friends has been granted!",
-            "outcome_popped": "Your wish to meet new friends has popped."
+            "wish": "I hope I am not going to get caught in the carpet",
+            "outcome_granted": "Cleopatra successfully meets Caesar, consolidating her rule over Egypt without incident.",
+            "outcome_popped": "Cleopatra is caught in the carpet, Egypt takes a different historical path, and the world knows her more as a cautionary tale than as a ruler.",
+            "rating_outcome_granted": "+7",
+            "rating_outcome_popped": "-5"
         },
         {
-            "wish": "I wish for happiness",
-            "outcome_granted": "Your wish for happiness has been granted!",
-            "outcome_popped": "Your wish for happiness has popped."
+            "wish": "I hope to get into art school in Vienna",
+            "outcome_granted": "Adolf Hitler becomes a controversial but famous painter, leaving WW2 to exist only as a best-selling sci-fi book.",
+            "outcome_popped": "Hitler is rejected from art school and turns to politics, leading to one of the darkest chapters in human history.",
+            "rating_outcome_granted": "+9",
+            "rating_outcome_popped": "-10"
         },
         {
-            "wish": "I wish for more knowledge",
-            "outcome_granted": "Your wish for more knowledge has been granted!",
-            "outcome_popped": "Your wish for more knowledge has popped."
+            "wish": "I wish I wasn’t in pain",
+            "outcome_granted": "Frida Kahlo paints cheerful flowers, but her lack of struggle makes her art less memorable to the world.",
+            "outcome_popped": "Frida’s pain drives her to create masterpieces that everyone buys as prints from IKEA.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish my army could conquer everything",
+            "outcome_granted": "Genghis Khan takes over the world, and 80% of the population begins praying to Tenggeri, the Mongols' sky god, as meat cooked on rocks replaces pizza as the most famous food.",
+            "outcome_popped": "Genghis Khan conquers half of Asia anyway and still ends up related to 1% of modern humans.",
+            "rating_outcome_granted": "-6",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish people never invented shoes",
+            "outcome_granted": "The barefoot lifestyle reigns supreme, but humanity curses every step on sharp rocks and Legos.",
+            "outcome_popped": "Shoes remain a staple, with sneakers becoming overpriced but toes staying safe.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish apples didn’t fall on my head",
+            "outcome_granted": "The apple misses Isaac Newton, who never discovers gravity, leaving humanity to blame random demons for why things fall.",
+            "outcome_popped": "The apple hits Newton, who invents calculus, and students worldwide curse his name centuries later.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish people would believe my theory of relativity",
+            "outcome_granted": "Albert Einstein’s theory is accepted immediately, but he spends decades explaining it to people who nod and pretend to understand.",
+            "outcome_popped": "No one believes Einstein, and he retires to a quiet life making clocks while relativity is rediscovered by someone named Steve.",
+            "rating_outcome_granted": "+6",
+            "rating_outcome_popped": "-3"
+        },
+        {
+            "wish": "I wish I could finish all my inventions",
+            "outcome_granted": "Leonardo da Vinci builds flying machines and robotic knights, but the Inquisition accuses him of witchcraft and burns his workshop.",
+            "outcome_popped": "Leonardo leaves behind sketches of wonders, inspiring future engineers centuries later.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Rome would throw a bigger triumph for me",
+            "outcome_granted": "Julius Caesar receives an extravagant parade, but the Senate grows even more resentful and speeds up betrayal plans.",
+            "outcome_popped": "A modest celebration occurs, Caesar remains cautious, and the Ides of March arrive as scheduled.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish the Rosetta Stone never got discovered",
+            "outcome_granted": "A single Egyptian scribe remains the only translator of hieroglyphics, and modern scholars never decode ancient Egypt.",
+            "outcome_popped": "Deciphering hieroglyphics through the Rosetta Stone unlocks a vast trove of Egyptian history.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish the Trojan Horse plan had been scrapped",
+            "outcome_granted": "Troy endures a longer siege, eventually succumbing to an even harsher invasion.",
+            "outcome_popped": "Greek trickery succeeds, Troy falls swiftly, and the story resonates for millennia.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Persian armies had never attacked Greece",
+            "outcome_granted": "Greek city-states remain less unified, delaying the spread of their culture.",
+            "outcome_popped": "Persian invasions unite Greeks, paving the way for golden eras in democracy and philosophy.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish the Great Library of Alexandria had been fireproof",
+            "outcome_granted": "The library’s scrolls survive, accelerating global science by centuries.",
+            "outcome_popped": "Fires destroy the library, leaving humanity with only fragments of ancient knowledge.",
+            "rating_outcome_granted": "+9",
+            "rating_outcome_popped": "-4"
+        },
+        {
+            "wish": "I wish the Colossus of Rhodes still stood",
+            "outcome_granted": "Tourists flock to the ancient statue, straining the island’s infrastructure.",
+            "outcome_popped": "An earthquake topples the wonder, and its legend grows in memory.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "-1"
+        },
+        {
+            "wish": "I wish the Lighthouse of Alexandria never collapsed",
+            "outcome_granted": "Sailors navigate safely for centuries, but local rulers never repurpose its stones, altering architectural history.",
+            "outcome_popped": "Earthquakes bring it down, and it becomes an archaeological fascination.",
+            "rating_outcome_granted": "+4",
+            "rating_outcome_popped": "-1"
+        },
+        {
+            "wish": "I wish the Hanging Gardens of Babylon were still maintained",
+            "outcome_granted": "Babylon remains a cultural beacon, diverting resources from the surrounding region and sparking envy among rivals.",
+            "outcome_popped": "The gardens fade into legend, inspiring explorers and poets for centuries.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish the Statue of Zeus at Olympia had been preserved",
+            "outcome_granted": "Ancient Greek religion holds sway longer, complicating the rise of Christianity.",
+            "outcome_popped": "The statue is lost, but its fame sparks enduring interest in Greek mythology.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish the Temple of Artemis never burned down",
+            "outcome_granted": "A glorious temple stands as a beacon of worship, overshadowing neighboring city-states' shrines.",
+            "outcome_popped": "Destroyed by fire, it’s rebuilt but eventually lost, symbolizing fleeting grandeur.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "-1"
+        },
+        {
+            "wish": "I wish King Arthur’s legend was undeniably true",
+            "outcome_granted": "Camelot stands, British politics revolve around Excalibur, and wizardly advisement shapes medieval Europe.",
+            "outcome_popped": "King Arthur remains half-myth, inspiring centuries of chivalric romance.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish the Vikings never raided Lindisfarne",
+            "outcome_granted": "Northumbrian monasteries flourish unscathed, but Europe stays less aware of Norse expansion.",
+            "outcome_popped": "The Lindisfarne raid ignites the Viking Age, altering medieval politics and trade.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Charlemagne hadn’t been crowned Emperor",
+            "outcome_granted": "Europe lacks a unifying emperor, potentially fracturing earlier, slowing the Holy Roman Empire concept.",
+            "outcome_popped": "Charlemagne’s coronation shapes feudalism and church-state relations for centuries.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish the Magna Carta never got signed",
+            "outcome_granted": "English nobles keep rebelling, risking monarchy collapse or permanent feudal chaos.",
+            "outcome_popped": "Magna Carta anchors constitutional governance, influencing modern democracy.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish the Avignon Papacy hadn’t happened",
+            "outcome_granted": "The Papal seat remains in Rome, reducing the Great Schism but limiting potential church reforms.",
+            "outcome_popped": "Moving the papacy to Avignon triggers crises, shaping Catholic politics and future reforms.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish the Black Death never reached Europe",
+            "outcome_granted": "Population booms, but feudal hierarchies remain entrenched, stifling social change.",
+            "outcome_popped": "The plague kills millions, yet labor becomes more valuable, empowering peasants in the long run.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish the Hundred Years’ War never began",
+            "outcome_granted": "France and England avoid prolonged conflict, forging national identities more slowly.",
+            "outcome_popped": "Century-long hostilities shape modern France and England, fueling patriotism and military evolution.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish Gutenberg hadn’t invented the printing press",
+            "outcome_granted": "Literacy spreads slowly, the Reformation is delayed, and knowledge remains in monastic circles.",
+            "outcome_popped": "Printing transforms Europe, fueling revolutions and mass education.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Michelangelo refused to paint the Sistine Chapel ceiling",
+            "outcome_granted": "He remains strictly a sculptor, and the iconic frescoes never exist, leaving art lovers bereft.",
+            "outcome_popped": "Michelangelo endures back-breaking work, creating a Renaissance masterpiece that captivates for centuries.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Machiavelli never wrote 'The Prince'",
+            "outcome_granted": "Power-hungry leaders lack a cynical guide, possibly leading to more idealistic but naive governance.",
+            "outcome_popped": "Machiavelli’s work influences realpolitik, shaping the strategies of rulers for generations.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "-2"
+        },
+        {
+            "wish": "I wish the Spanish Inquisition never started",
+            "outcome_granted": "Religious persecution softens in Spain, but some internal power struggles remain unresolved.",
+            "outcome_popped": "The Inquisition imposes strict orthodoxy, causing fear, exile, and cultural shifts.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "-4"
+        },
+        {
+            "wish": "I wish Christopher Columbus actually found India",
+            "outcome_granted": "He opens direct trade routes, bypassing the Americas for decades, drastically altering global colonization paths.",
+            "outcome_popped": "He lands in the Caribbean, claims it as India, and reshapes the world through European expansion.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Vasco da Gama never rounded the Cape of Good Hope",
+            "outcome_granted": "Direct European sea trade to Asia is delayed, affecting spice flow and colonial ambitions.",
+            "outcome_popped": "Portugal’s route to India kicks off an era of maritime empires and fierce competition.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Ferdinand Magellan never attempted to circumnavigate the globe",
+            "outcome_granted": "Global navigation remains uncertain longer, as Earth’s circumference is unverified.",
+            "outcome_popped": "His voyage proves the world’s roundness, despite his own death and high crew casualties.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Hernán Cortés turned back instead of conquering the Aztecs",
+            "outcome_granted": "Tenochtitlan thrives longer under Aztec rule, but Spanish ambitions find another route into Mesoamerica.",
+            "outcome_popped": "Cortés’s conquest topples the Aztecs, reshaping the cultural and demographic landscape.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "-5"
+        },
+        {
+            "wish": "I wish Francisco Pizarro never entered Inca lands",
+            "outcome_granted": "The Inca Empire endures, though Spanish colonization efforts shift and eventually reach them anyway.",
+            "outcome_popped": "Pizarro’s conquest dismantles the empire, paving the way for Spanish rule in South America.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "-6"
+        },
+        {
+            "wish": "I wish Elizabeth I had married a foreign prince",
+            "outcome_granted": "England gains a dynastic ally, but domestic factions fear foreign influence, risking internal strife.",
+            "outcome_popped": "As the 'Virgin Queen,' Elizabeth steers England to a golden age of independence and exploration.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Mary, Queen of Scots, had never claimed the English throne",
+            "outcome_granted": "She remains in Scotland, avoiding Elizabeth’s ire, yet struggles with local rebellions.",
+            "outcome_popped": "Her claims lead to imprisonment and execution, fueling centuries of royal intrigue in Britain.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "-3"
+        },
+        {
+            "wish": "I wish the Gunpowder Plot never got foiled",
+            "outcome_granted": "Guy Fawkes succeeds, reshaping British governance with a violent upheaval against the monarchy.",
+            "outcome_popped": "The plot fails, Parliament survives, and Britons commemorate Guy Fawkes Night ever after.",
+            "rating_outcome_granted": "-7",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish King Louis XIV hadn’t built Versailles",
+            "outcome_granted": "France conserves resources, but scattered nobility remains unruly, weakening royal authority early.",
+            "outcome_popped": "A splendid court forms at Versailles, projecting power while sowing seeds of resentment and revolution.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "-4"
+        },
+        {
+            "wish": "I wish Peter the Great hadn’t westernized Russia",
+            "outcome_granted": "Russia stays isolated in old customs, lagging in technology and reforms.",
+            "outcome_popped": "Peter’s sweeping changes modernize the empire, though many resent forced European influences.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Catherine the Great had never come to power",
+            "outcome_granted": "Her progressive reforms and expansions never happen, keeping Russia more insular.",
+            "outcome_popped": "Catherine’s rule strengthens Russia’s position in Europe and fosters cultural growth.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish the American Revolution never happened",
+            "outcome_granted": "The 13 Colonies remain under British rule, slowing the spread of republican ideals.",
+            "outcome_popped": "Revolutionary success births the United States, influencing political systems worldwide.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish the Boston Tea Party was just a peaceful protest",
+            "outcome_granted": "Tensions lessen briefly, delaying the war but not averting it.",
+            "outcome_popped": "Colonists dump the tea, angering Britain and fueling the road to independence.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish the Declaration of Independence had never been written",
+            "outcome_granted": "Colonial unity wavers, potentially splintering into multiple smaller entities.",
+            "outcome_popped": "The Declaration inspires not only Americans but revolutions worldwide, spreading democratic ideals.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Benjamin Franklin hadn’t experimented with a kite in a storm",
+            "outcome_granted": "Electricity remains poorly understood for decades, delaying key discoveries.",
+            "outcome_popped": "Franklin’s curiosity helps pave the way for lightning rods and a broader fascination with electricity.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Thomas Jefferson never negotiated the Louisiana Purchase",
+            "outcome_granted": "The US remains smaller, France may handle the territory differently, changing North American history.",
+            "outcome_popped": "Doubling the US in size fuels rapid westward expansion and conflicts with native populations.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish James Madison had ignored calls for a Bill of Rights",
+            "outcome_granted": "Key civil liberties remain ambiguous, causing protests and potential unrest.",
+            "outcome_popped": "The Bill of Rights sets a precedent for human rights globally and cements American ideals.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Aaron Burr had never dueled Alexander Hamilton",
+            "outcome_granted": "Hamilton survives, continuing to shape US finance, while Burr fades quietly into history.",
+            "outcome_popped": "Hamilton's death shocks the nation, fueling political drama for years to come.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "-3"
+        },
+        {
+            "wish": "I wish Napoleon hadn’t declared himself Emperor",
+            "outcome_granted": "He stays First Consul, possibly stabilizing France but lacking the grand ambition that reshaped Europe.",
+            "outcome_popped": "Emperor Napoleon shakes the continent with wars, eventually meeting his downfall at Waterloo.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "-6"
+        },
+        {
+            "wish": "I wish the War of 1812 never started",
+            "outcome_granted": "US-British tensions ease, but Canada’s distinct identity develops more slowly.",
+            "outcome_popped": "The conflict cements Canada’s path and challenges the young US Navy and pride.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish Simón Bolívar hadn’t pursued independence",
+            "outcome_granted": "Spain retains its colonies longer, delaying the formation of multiple South American nations.",
+            "outcome_popped": "Bolívar’s campaigns free Venezuela, Colombia, Ecuador, etc., though ongoing divisions plague the region.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Beethoven never went deaf",
+            "outcome_granted": "He composes comfortably, but may lack the transcendent depth inspired by his personal struggle.",
+            "outcome_popped": "Deafness propels Beethoven’s innovative style, setting new standards in classical music.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Lord Byron never wrote his epic poems",
+            "outcome_granted": "Romantic literature loses a cornerstone, potentially muting the era’s rebellious tone.",
+            "outcome_popped": "Byron’s works scandalize and captivate audiences, fueling the Romantic movement.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Mary Shelley never published 'Frankenstein'",
+            "outcome_granted": "Science fiction lacks a seminal text, slowing introspection on scientific responsibility.",
+            "outcome_popped": "Her novel sparks debates on creation and ethics, becoming a genre-defining classic.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Charles Babbage built his analytical engine successfully",
+            "outcome_granted": "A proto-computer era dawns in Victorian times, but society struggles to apply it widely.",
+            "outcome_popped": "His unfinished designs inspire later generations to develop modern computing.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Ada Lovelace hadn’t published her notes on Babbage’s machine",
+            "outcome_granted": "Her mathematical insights vanish, delaying the idea of programming by decades.",
+            "outcome_popped": "She’s hailed as the first programmer, proving machines can do more than mere arithmetic.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Louis Pasteur never discovered pasteurization",
+            "outcome_granted": "Foodborne illnesses flourish, slowing population growth and industrial food safety standards.",
+            "outcome_popped": "Pasteur’s method becomes the global norm, saving lives and shaping modern dairy production.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Gregor Mendel never studied pea plants",
+            "outcome_granted": "Genetics remains a mystery for longer, delaying advanced biology and breeding techniques.",
+            "outcome_popped": "Mendel’s laws form the bedrock of genetics, revolutionizing science and agriculture.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Joseph Lister never promoted antiseptics",
+            "outcome_granted": "Surgery remains dangerously unsanitary, with high mortality rates.",
+            "outcome_popped": "His antiseptic techniques drastically reduce infections, saving countless patients.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Sigmund Freud had kept his theories to himself",
+            "outcome_granted": "Psychoanalysis never gains traction, leaving psychology to follow different schools of thought.",
+            "outcome_popped": "Freud’s ideas spark debates worldwide, influencing therapy, literature, and pop culture.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Karl Marx never published 'The Communist Manifesto'",
+            "outcome_granted": "Early socialist movements lack a unifying text, potentially slowing labor revolutions.",
+            "outcome_popped": "Marx’s work ignites ideological battles, reshaping global politics and economies.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "-6"
+        },
+        {
+            "wish": "I wish Friedrich Nietzsche’s works were fully understood in his lifetime",
+            "outcome_granted": "He gains immediate recognition, but controversies still arise posthumously, twisting his legacy anyway.",
+            "outcome_popped": "Misinterpretation spawns existential and cultural debates long after his death.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "-2"
+        },
+        {
+            "wish": "I wish Winston Churchill never took up leadership during WWII",
+            "outcome_granted": "Britain struggles under weaker leadership, potentially altering the course of the war.",
+            "outcome_popped": "Churchill’s resolve and speeches bolster Allied morale, contributing to eventual victory.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Franklin D. Roosevelt hadn’t been elected President",
+            "outcome_granted": "The New Deal arrives slowly or not at all, prolonging the Great Depression and weakening US resolve.",
+            "outcome_popped": "FDR’s administration oversees massive reforms and leads the US through WWII.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Benito Mussolini had remained a journalist",
+            "outcome_granted": "He never rises to power, leaving Italy to develop a different political path without Fascism.",
+            "outcome_popped": "Mussolini seizes power, forging a dictatorship that allies with Nazi Germany.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "-7"
+        },
+        {
+            "wish": "I wish Charles de Gaulle never formed the Free French forces",
+            "outcome_granted": "France’s resistance is weaker during WWII, possibly extending Axis control in Western Europe.",
+            "outcome_popped": "De Gaulle leads the resistance, ensuring France’s post-war influence and unity.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Joseph Stalin had stayed a seminary student",
+            "outcome_granted": "He never becomes the Soviet dictator, and the USSR’s path might be less brutal or centralized.",
+            "outcome_popped": "Stalin’s reign cements a harsh totalitarian regime, shaping global politics during the Cold War.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "-8"
+        },
+        {
+            "wish": "I wish Mao Zedong never joined the Communist Party",
+            "outcome_granted": "China follows a different revolutionary path, potentially delaying the Cultural Revolution.",
+            "outcome_popped": "Mao leads China through upheavals, impacting millions for decades.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "-9"
+        },
+        {
+            "wish": "I wish Chiang Kai-shek had unified China smoothly",
+            "outcome_granted": "A single, stable government forms earlier, reducing internal strife but stifling future reforms.",
+            "outcome_popped": "Prolonged civil conflict leads to the eventual Communist victory and Taiwan’s separate rule.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "-4"
+        },
+        {
+            "wish": "I wish Ho Chi Minh had not sought Vietnamese independence",
+            "outcome_granted": "France maintains its colony longer, delaying Vietnam’s wars but not preventing them entirely.",
+            "outcome_popped": "Decolonization sparks conflict, leading to a divisive war and major global involvement.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "-7"
+        },
+        {
+            "wish": "I wish Pol Pot never embraced radical ideology",
+            "outcome_granted": "Cambodia avoids the Khmer Rouge genocide, sustaining its cultural heritage uninterrupted.",
+            "outcome_popped": "His regime’s brutal policies decimate the population and scar the nation’s memory.",
+            "rating_outcome_granted": "+9",
+            "rating_outcome_popped": "-10"
+        },
+        {
+            "wish": "I wish Fidel Castro had stayed a baseball player",
+            "outcome_granted": "He never leads the Cuban Revolution, and Cuba remains under Batista or transitions differently.",
+            "outcome_popped": "Castro’s revolution defies the US, transforming Cuba into a socialist state for decades.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "-6"
+        },
+        {
+            "wish": "I wish Che Guevara had stuck to medicine",
+            "outcome_granted": "He remains a dedicated doctor, never becoming a global revolutionary icon.",
+            "outcome_popped": "Guevara’s role in revolutions cements his legend, though results remain contentious.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "-5"
+        },
+        {
+            "wish": "I wish Eva Perón stayed a stage actress",
+            "outcome_granted": "She never wields political influence, and Argentina’s populist movement lacks her iconic image.",
+            "outcome_popped": "Evita becomes the face of the descamisados, shaping Argentinian politics and myths.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Juan Perón had never embraced populism",
+            "outcome_granted": "Argentina takes a more conventional political route, limiting major social reforms of the era.",
+            "outcome_popped": "Peronism galvanizes millions, sparking controversy and shaping Argentina for decades.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish Augusto Pinochet had remained a low-ranking officer",
+            "outcome_granted": "Chile avoids a violent military coup, potentially developing under a more moderate regime.",
+            "outcome_popped": "Pinochet’s dictatorship enforces economic reforms amid severe human rights abuses.",
+            "rating_outcome_granted": "+4",
+            "rating_outcome_popped": "-7"
+        },
+        {
+            "wish": "I wish Nelson Mandela hadn’t been imprisoned",
+            "outcome_granted": "He leads a more immediate political reform, but also faces intense government crackdowns earlier.",
+            "outcome_popped": "His long imprisonment makes him a global icon, guiding South Africa to end apartheid.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Idi Amin stayed in the British colonial army",
+            "outcome_granted": "He never seizes power in Uganda, sparing the country his brutal regime.",
+            "outcome_popped": "Amin’s dictatorship terrorizes Uganda and garners global condemnation.",
+            "rating_outcome_granted": "+6",
+            "rating_outcome_popped": "-9"
+        },
+        {
+            "wish": "I wish Kim Il-sung never established North Korea’s cult of personality",
+            "outcome_granted": "North Korea evolves more like a standard socialist state, possibly limiting dynastic rule.",
+            "outcome_popped": "A totalitarian dynasty cements power, isolating the nation from much of the world.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "-8"
+        },
+        {
+            "wish": "I wish Indira Gandhi had chosen a purely diplomatic approach",
+            "outcome_granted": "India’s conflicts see less direct intervention, but internal political challenges persist longer.",
+            "outcome_popped": "Her firm leadership style shapes modern India’s centralized power and controversies.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish Margaret Thatcher had never become Prime Minister",
+            "outcome_granted": "Britain’s economy follows a different path, with less emphasis on privatization and deregulation.",
+            "outcome_popped": "The 'Iron Lady' redefines British policy, leaving a contentious legacy in economy and society.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "-3"
+        },
+        {
+            "wish": "I wish Mikhail Gorbachev never introduced glasnost and perestroika",
+            "outcome_granted": "The USSR lingers longer under repressive structures, delaying its collapse.",
+            "outcome_popped": "Reforms spark openness, hastening the Soviet Union’s end and reshaping world politics.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Boris Yeltsin never took the presidency after the USSR fell",
+            "outcome_granted": "Russia transitions differently, possibly avoiding the chaotic privatization of the 1990s.",
+            "outcome_popped": "Yeltsin’s leadership defines post-Soviet Russia, for better or worse, and sets the stage for future leaders.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "-2"
+        },
+        {
+            "wish": "I wish Angela Merkel had pursued a scientific career instead of politics",
+            "outcome_granted": "Germany misses out on her steady leadership, while she contributes to quantum chemistry research.",
+            "outcome_popped": "Her chancellorship leads Europe through multiple crises with a pragmatic approach.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Harriet Tubman had stayed on the plantation",
+            "outcome_granted": "The Underground Railroad lacks her leadership, prolonging the suffering of many enslaved people.",
+            "outcome_popped": "Tubman becomes a key figure, rescuing slaves and championing abolitionism.",
+            "rating_outcome_granted": "-6",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Susan B. Anthony had never fought for women’s suffrage",
+            "outcome_granted": "The suffrage movement slows, delaying women’s rights in the United States.",
+            "outcome_popped": "Her dedication drives the 19th Amendment, transforming American democracy.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Sojourner Truth had stayed silent",
+            "outcome_granted": "Fewer voices advocate against slavery and for women’s rights, dulling social progress.",
+            "outcome_popped": "Her powerful speeches inspire many, furthering abolition and early feminism.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Rosa Parks had given up her seat quietly",
+            "outcome_granted": "Racial segregation endures longer without a galvanizing moment for the civil rights movement.",
+            "outcome_popped": "Her act of resistance sparks a nationwide push against segregation and discrimination.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Martin Luther King Jr. had not led the civil rights movement",
+            "outcome_granted": "Segregation persists, progress fragments among smaller local leaders, delaying nationwide reforms.",
+            "outcome_popped": "His leadership and nonviolent protest strategies reshape America’s social and political landscape.",
+            "rating_outcome_granted": "-7",
+            "rating_outcome_popped": "+10"
+        },
+        {
+            "wish": "I wish Malala Yousafzai had never spoken about girls’ education",
+            "outcome_granted": "She remains unknown, and fewer global efforts push for educational rights in conflict regions.",
+            "outcome_popped": "Her activism inspires millions and places a spotlight on women’s education worldwide.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Helen Keller had never pursued activism",
+            "outcome_granted": "Fewer breakthroughs occur in disability rights, and many remain marginalized.",
+            "outcome_popped": "Her advocacy redefines the world’s view on disability, inspiring broader inclusion.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Marie Stopes never opened her family planning clinics",
+            "outcome_granted": "Birth control and women's reproductive education spread more slowly, prolonging misconceptions.",
+            "outcome_popped": "Her clinics pioneer modern family planning, influencing global women’s health movements.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Emmeline Pankhurst had not founded the Women’s Social and Political Union",
+            "outcome_granted": "Britain’s women’s suffrage movement loses momentum, delaying key electoral reforms.",
+            "outcome_popped": "Her militant tactics draw attention, hastening votes for women and changing British politics.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Florence Nightingale hadn’t reformed nursing",
+            "outcome_granted": "Hospitals remain disorganized, infection rates stay high, and modern nursing takes longer to develop.",
+            "outcome_popped": "Her reforms and statistical analysis revolutionize patient care, saving countless lives.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Hedy Lamarr never invented frequency-hopping technology",
+            "outcome_granted": "Wireless communication progress stalls, delaying modern GPS, Bluetooth, and Wi-Fi advancements.",
+            "outcome_popped": "Her invention paves the way for secure radio communications, shaping the digital future.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Harriet Beecher Stowe had not written 'Uncle Tom’s Cabin'",
+            "outcome_granted": "Abolitionist sentiment grows more slowly, possibly prolonging slavery in the US.",
+            "outcome_popped": "Her novel intensifies national debate, contributing to the Civil War’s moral impetus.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish John Lennon never formed the Beatles",
+            "outcome_granted": "Rock music evolves differently, and the British Invasion never happens in the same way.",
+            "outcome_popped": "The Beatles revolutionize popular music, influencing culture for decades.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Elvis Presley had stayed a truck driver",
+            "outcome_granted": "Rock 'n' roll lacks its King, possibly delaying the genre’s mainstream popularity.",
+            "outcome_popped": "Elvis becomes a cultural icon, reshaping music and challenging social norms.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Aretha Franklin had never sung in her father’s church",
+            "outcome_granted": "She never hones her gospel-rooted voice, and the ‘Queen of Soul’ title remains vacant.",
+            "outcome_popped": "Her church beginnings launch a legendary career, defining soul music.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Johnny Cash hadn’t performed at Folsom Prison",
+            "outcome_granted": "His prison concerts never redefine his public image, and inmate reform awareness stays lower.",
+            "outcome_popped": "Cash’s performance revitalizes his career and highlights the humanity of prisoners.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Bob Marley never promoted reggae worldwide",
+            "outcome_granted": "Reggae remains niche in Jamaica, and global peace movements lose a major musical catalyst.",
+            "outcome_popped": "Marley’s message of unity spreads across continents, influencing countless artists and activists.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Prince had pursued jazz instead of pop",
+            "outcome_granted": "He becomes an acclaimed musician in smaller circles, never achieving global pop stardom.",
+            "outcome_popped": "Prince’s innovations rock the pop world, leaving a flamboyant, genre-defying legacy.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish David Bowie stuck to one stage persona",
+            "outcome_granted": "He remains consistent, losing the chameleon-like mystique that fascinated fans.",
+            "outcome_popped": "His ever-changing personas revolutionize glam rock, influencing fashion and music.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Freddie Mercury had stayed a pianist in a small club",
+            "outcome_granted": "Queen never forms, and rock opera influences fade, altering stadium anthems forever.",
+            "outcome_popped": "Mercury’s unparalleled showmanship and voice define an era of rock music.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Madonna never pursued a music career",
+            "outcome_granted": "She never becomes the ‘Queen of Pop,’ leaving female pop stardom less boundary-pushing in the 80s.",
+            "outcome_popped": "Her provocative style shapes music videos, fashion, and gender norms worldwide.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Michael Jackson had remained in the Jackson 5 forever",
+            "outcome_granted": "He never emerges as the King of Pop, and the group’s teenage phase fades quietly.",
+            "outcome_popped": "Jackson’s solo career redefines global pop, though not without personal and public controversies.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Mariah Carey had never debuted 'Vision of Love'",
+            "outcome_granted": "Her whistle register remains undiscovered, and 90s pop lacks one of its defining voices.",
+            "outcome_popped": "Her debut revolutionizes vocal performance, inspiring countless imitators.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Whitney Houston had stayed in gospel choirs",
+            "outcome_granted": "She remains a local star, never crossing into mainstream pop, losing iconic ballads.",
+            "outcome_popped": "Her powerhouse vocals set global records, reshaping the pop and R&B landscape.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Edith Piaf had never sung on Paris streets",
+            "outcome_granted": "France loses its 'Little Sparrow,' and chanson music remains less internationally recognized.",
+            "outcome_popped": "Her emotional performances define an era of French music and cultural identity.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Audrey Hepburn never acted in 'Roman Holiday'",
+            "outcome_granted": "She remains a lesser-known performer, and a classic film loses its iconic charm.",
+            "outcome_popped": "Her role captivates audiences, elevating her to an enduring symbol of grace and style.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Marilyn Monroe had pursued a journalism career",
+            "outcome_granted": "She becomes an insightful columnist, but Hollywood lacks one of its most famous icons.",
+            "outcome_popped": "Her film roles and persona redefine celebrity culture, albeit at great personal cost.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish James Dean never stepped into acting",
+            "outcome_granted": "He remains unknown, and teenage rebellion lacks its cultural icon in the 1950s.",
+            "outcome_popped": "His tragic end cements him as the eternal youth symbol, influencing generations of film fans.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Charlton Heston never filmed 'Ben-Hur'",
+            "outcome_granted": "The epic's success is diminished, and Heston remains a moderately known actor.",
+            "outcome_popped": "His performance defines the sword-and-sandal genre, earning iconic status in Hollywood.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish Greta Garbo continued silent films only",
+            "outcome_granted": "She avoids the talkie transition, but her fame plateaus as silent cinema declines.",
+            "outcome_popped": "Her voice on film cements her mystique, bridging silent and talkie eras.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish Marlon Brando had quit acting after 'A Streetcar Named Desire'",
+            "outcome_granted": "He remains known for a single performance, missing out on 'The Godfather' and other classics.",
+            "outcome_popped": "Brando’s method acting revolutionizes Hollywood, influencing generations of actors.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Clint Eastwood stuck to small TV roles",
+            "outcome_granted": "He never becomes the face of Spaghetti Westerns or a celebrated director.",
+            "outcome_popped": "Eastwood’s gritty style shapes Western and action genres, later earning him directing accolades.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Bruce Lee had remained in Hong Kong studios only",
+            "outcome_granted": "His martial arts philosophy stays regional, influencing fewer global audiences.",
+            "outcome_popped": "Lee’s Hollywood breakthrough revolutionizes action cinema and sparks global interest in Kung Fu.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Jackie Chan never attempted comedic martial arts",
+            "outcome_granted": "He becomes a serious stuntman, missing the unique blend of humor and action that defines his brand.",
+            "outcome_popped": "Chan’s innovative style entertains worldwide, pushing the boundaries of stunts and slapstick.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Akira Kurosawa stuck to painting",
+            "outcome_granted": "Cinema never gains classics like 'Seven Samurai,' influencing Westerns and film style globally.",
+            "outcome_popped": "Kurosawa’s films inspire directors worldwide, bridging Eastern and Western storytelling.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Hayao Miyazaki hadn’t created Studio Ghibli",
+            "outcome_granted": "Anime lacks some of its most beloved films, and environmental themes find fewer outlets.",
+            "outcome_popped": "Miyazaki’s storytelling defines a new era of animation, enchanting global audiences.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Walt Disney never pursued animation",
+            "outcome_granted": "Cartoons remain smaller-scale, and the concept of theme parks might look very different.",
+            "outcome_popped": "The Disney empire reshapes global entertainment and family films for generations.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish Steven Spielberg had stayed a TV director",
+            "outcome_granted": "Iconic films like 'Jaws' and 'E.T.' are never made, shifting Hollywood’s blockbuster era significantly.",
+            "outcome_popped": "Spielberg’s innovative approach redefines commercial cinema, inspiring countless filmmakers.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish George Lucas never wrote 'Star Wars'",
+            "outcome_granted": "Sci-fi misses a mainstream phenomenon, altering pop culture and special effects innovation.",
+            "outcome_popped": "The 'Star Wars' saga revolutionizes merchandising, visual effects, and global fandom.",
+            "rating_outcome_granted": "-5",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish J.K. Rowling had not penned 'Harry Potter'",
+            "outcome_granted": "A generation grows up without Hogwarts, and the fantasy genre’s renaissance shifts to other works.",
+            "outcome_popped": "Her series sparks huge enthusiasm for reading, transforming young adult literature.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish J.R.R. Tolkien had kept Middle-earth to himself",
+            "outcome_granted": "Modern fantasy lacks its epic foundation, possibly shifting how people approach world-building.",
+            "outcome_popped": "Tolkien’s legendarium establishes a template for fantasy writing, inspiring countless authors.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+10"
+        },
+        {
+            "wish": "I wish George R.R. Martin had never started 'A Song of Ice and Fire'",
+            "outcome_granted": "Dark, gritty fantasy remains niche, and 'Game of Thrones' never captivates global TV audiences.",
+            "outcome_popped": "His saga redefines epic fantasy, though fans wait impatiently for each new installment.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Agatha Christie never wrote detective novels",
+            "outcome_granted": "The mystery genre loses a prolific cornerstone, with fewer Poirot or Marple stories.",
+            "outcome_popped": "Her works dominate mystery fiction, spawning endless adaptations and a template for the whodunit.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Arthur Conan Doyle never created Sherlock Holmes",
+            "outcome_granted": "Detective fiction evolves differently, missing the iconic detective’s methods.",
+            "outcome_popped": "Holmes’s intellect captivates readers, influencing countless future characters and investigations.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Edgar Allan Poe had focused on journalism",
+            "outcome_granted": "Gothic horror and detective genres lose a founding figure, altering literary evolution.",
+            "outcome_popped": "Poe’s tales shape dark fiction and inspire a legion of horror enthusiasts.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Isaac Asimov never wrote his sci-fi novels",
+            "outcome_granted": "Robotics laws and sprawling futuristic epics appear later or differently, stalling certain inspirations.",
+            "outcome_popped": "Asimov’s Foundation and robot series guide scientific imagination and ethical debates.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Philip K. Dick’s stories remained unpublished",
+            "outcome_granted": "Cyberpunk themes and reality-questioning plots evolve more slowly in sci-fi.",
+            "outcome_popped": "His works fuel philosophical film adaptations like 'Blade Runner,' shaping future storytelling.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish Ray Bradbury hadn’t written 'Fahrenheit 451'",
+            "outcome_granted": "Dystopian literature lacks a major warning about censorship, shifting the genre’s development.",
+            "outcome_popped": "His novel becomes a staple cautionary tale, influencing debates on free expression.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish Mary Wollstonecraft never wrote 'A Vindication of the Rights of Woman'",
+            "outcome_granted": "Early feminist thought lacks a seminal text, slowing the push for women’s equality in Europe.",
+            "outcome_popped": "Her writing sparks debates on education and women’s rights, planting seeds for future reforms.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish Simone de Beauvoir never published 'The Second Sex'",
+            "outcome_granted": "Existential feminism remains less developed, stalling deeper analyses of women’s liberation.",
+            "outcome_popped": "Her work influences feminist theory worldwide, challenging societal norms.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish random city guards during the Middle Ages had better pay",
+            "outcome_granted": "They remain more loyal, leading to fewer local revolts but also stifling changes in feudal structures.",
+            "outcome_popped": "Underpaid guards sometimes ally with peasants, accelerating shifts away from feudalism.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an unknown scribe in ancient Sumer never invented cuneiform",
+            "outcome_granted": "Writing develops later, delaying record-keeping and early civilization progress.",
+            "outcome_popped": "Cuneiform births history’s first written records, fueling civilization’s expansion.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish a random Greek hoplite had decided to become a playwright",
+            "outcome_granted": "He writes overlooked dramas, possibly overshadowed by the giants of Greek theatre.",
+            "outcome_popped": "He remains a soldier, and the known masters—Sophocles, Aeschylus, Euripides—dominate the stage.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish a medieval baker had invented low-gluten bread",
+            "outcome_granted": "Health trends arise centuries early, possibly changing diets but confusing 14th-century peasants.",
+            "outcome_popped": "Gluten remains unchallenged, fueling hearty bread that sustains feudal societies.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish a medieval mason had discovered concrete rebar",
+            "outcome_granted": "Gothic cathedrals get advanced reinforcements, possibly overshadowing future Renaissance achievements.",
+            "outcome_popped": "Traditional stone and mortar persist, leading to iconic medieval architecture we admire today.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an unnamed Egyptian laborer had refused to quarry stones for pyramids",
+            "outcome_granted": "Construction slows, possibly making pyramids smaller or less numerous.",
+            "outcome_popped": "Mass labor builds massive tombs, forging one of the Seven Wonders of the Ancient World.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a random Babylonian astronomer had identified all planets clearly",
+            "outcome_granted": "Ancient astronomy advances faster, but might conflict with religious narratives early on.",
+            "outcome_popped": "They chart partial data, leaving future Greeks and others to refine planetary knowledge.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an anonymous Indus Valley trader had discovered Europe first",
+            "outcome_granted": "Contacts with Western lands begin earlier, forging a different balance in ancient trade.",
+            "outcome_popped": "Trade patterns evolve slowly, with Middle Eastern routes dominating East-West exchanges.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a Persian merchant had set up a universal coin system",
+            "outcome_granted": "Trade unifies across empires, but local currencies vanish, causing confusion for smaller markets.",
+            "outcome_popped": "Multiple currencies persist, shaping the dynamic exchanges along the Silk Road.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "0"
+        },
+        {
+            "wish": "I wish a Carthaginian sailor had mapped the entire African coastline",
+            "outcome_granted": "Early detailed charts reshape Phoenician trade, possibly changing colonization patterns.",
+            "outcome_popped": "Knowledge remains sparse, leaving future explorers to rediscover coastal routes.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+1"
+        },
+        {
+            "wish": "I wish a medieval pilgrim never told tales of miracles",
+            "outcome_granted": "Fewer shrines gain fame, possibly reducing church tourism and relic economies.",
+            "outcome_popped": "Miracle stories spread, fueling pilgrimages and shaping medieval religious fervor.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a random Norse farmer had introduced sweet potatoes early",
+            "outcome_granted": "Norse cuisine adapts, but the climate can’t sustain them, leading to confusion and minimal impact.",
+            "outcome_popped": "Sweet potatoes remain a New World staple until global explorations connect the continents.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish a Celtic bard never performed at a chieftain’s feast",
+            "outcome_granted": "Local legends spread less, missing a chance to unite clans under shared stories.",
+            "outcome_popped": "The bard’s performance cements cultural identity, passing myths down generations.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an unknown scribe in medieval China had invented shorthand",
+            "outcome_granted": "Administrative tasks speed up, potentially accelerating bureaucracy but limiting calligraphy art.",
+            "outcome_popped": "Full calligraphy remains cherished, though record-keeping remains meticulous and lengthy.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a 16th-century Dutch painter had discovered color photography first",
+            "outcome_granted": "Photography emerges centuries early, altering the value of paintings and portraits drastically.",
+            "outcome_popped": "Art develops gradually, culminating in the later invention of photography in the 19th century.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish an unnamed Renaissance merchant never funded explorers",
+            "outcome_granted": "Some voyages are canceled, slightly delaying the Age of Discovery.",
+            "outcome_popped": "Wealthy patrons sponsor expeditions, spurring global trade routes and competition.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a random English farmer had mechanized plowing in the 13th century",
+            "outcome_granted": "An early agricultural revolution boosts production, potentially offsetting the Black Death's impact.",
+            "outcome_popped": "Plowing innovations come later, in tandem with the Industrial Revolution.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an anonymous 19th-century miner had struck the biggest gold vein alone",
+            "outcome_granted": "He becomes extremely wealthy in secret, distorting local economies once discovered.",
+            "outcome_popped": "Gold rush mania spreads, populating entire regions and shaping the American West.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an unknown Greek philosopher had proven heliocentrism early",
+            "outcome_granted": "Earth’s movement around the sun is known centuries before Copernicus, possibly clashing with dominant beliefs harshly.",
+            "outcome_popped": "Geocentrism persists, eventually yielding to Copernican and Galilean findings.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a random Celtic warrior had introduced iron forging sooner",
+            "outcome_granted": "Celtic tribes gain an early advantage, shifting power balances across Europe.",
+            "outcome_popped": "Iron spreads gradually, with multiple cultures innovating metallurgy in tandem.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a poor Egyptian peasant had discovered embalming secrets",
+            "outcome_granted": "They share it widely, demystifying mummification and reducing priests’ influence.",
+            "outcome_popped": "Priesthood and scribes maintain control, keeping the secrets tied to religion and royalty.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish a random Indus Valley engineer had invented a flush toilet earlier",
+            "outcome_granted": "Hygiene standards rise significantly in ancient times, possibly altering urban planning.",
+            "outcome_popped": "Primitive sanitation remains, and advanced toilets wait until modern eras to spread widely.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a teenage Polynesian explorer had reached Antarctica first",
+            "outcome_granted": "Incredible canoe-based navigation stuns historians, but few follow them to the icy continent.",
+            "outcome_popped": "Polar expeditions remain a 19th-century phenomenon, carried out by Western explorers.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish a nameless medieval monk had championed universal literacy",
+            "outcome_granted": "Widespread reading transforms feudal Europe earlier, but church elites resist losing monopoly on knowledge.",
+            "outcome_popped": "Literacy spreads gradually through printing, fueling the Renaissance and Reformation in due course.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish an anonymous Maya priest had introduced the concept of zero to Europe",
+            "outcome_granted": "Advanced mathematics arrives earlier via transatlantic contact, shaking Europe's numeric systems.",
+            "outcome_popped": "Zero enters Europe through Arab scholars, revolutionizing mathematics slowly.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish a roving Samoan navigator established permanent routes to South America",
+            "outcome_granted": "Pacific migration intensifies, blending Polynesian and Andean cultures in a unique fusion.",
+            "outcome_popped": "Polynesia remains relatively isolated until European exploration, preserving distinct traditions.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a wandering Indian yogi introduced meditation across medieval Europe",
+            "outcome_granted": "Mystical practices gain traction, possibly clashing with Church authority or being integrated as heresy.",
+            "outcome_popped": "Meditation arrives in the West centuries later, shaping modern wellness trends.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a humble Japanese fisherman had invented sushi centuries earlier",
+            "outcome_granted": "Sushi culture spreads globally long before modern refrigeration, leading to interesting preservations methods.",
+            "outcome_popped": "Sushi’s popularity grows in modern times, eventually becoming an international cuisine phenomenon.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a West African merchant had invented currency-backed credit",
+            "outcome_granted": "Trade networks expand faster, but reckless credit might cause early financial crises.",
+            "outcome_popped": "Credit systems evolve gradually, culminating in global banking centuries later.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish an unknown Celtic druid had decoded the secret of iron gall ink for all",
+            "outcome_granted": "Scrolls and manuscripts proliferate, but the church no longer monopolizes textual production.",
+            "outcome_popped": "Ink remains specialized, used carefully in monasteries, preserving knowledge in controlled ways.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a medieval Moorish scholar had discovered spectacles earlier",
+            "outcome_granted": "Visual aids become widespread sooner, enhancing scholarly work across the Islamic world.",
+            "outcome_popped": "Reading glasses develop in Europe around the 13th century, improving literacy gradually.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a random Aztec farmer had grown coffee beans",
+            "outcome_granted": "Coffee culture emerges in Mesoamerica, possibly competing with cocoa as a beverage of choice.",
+            "outcome_popped": "Coffee remains an Old World discovery, linking Africa, the Middle East, and Europe.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an unknown nurse in the Crimean War had discovered antibiotics",
+            "outcome_granted": "Warfare injuries see fewer deaths, but overuse leads to early antibiotic resistance concerns.",
+            "outcome_popped": "Such discoveries wait for the 20th century (Fleming), fueling modern medicine’s revolution.",
+            "rating_outcome_granted": "+5",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish a random 15th-century herdsman had started the concept of selective breeding in Europe",
+            "outcome_granted": "Livestock improves sooner, boosting agriculture, but also leading to early monopolies in breeding.",
+            "outcome_popped": "Selective breeding develops gradually, modernizing agriculture over centuries.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a travelling Ottoman trader had popularized kimchi in 16th-century Istanbul",
+            "outcome_granted": "A fusion cuisine emerges, bridging East Asia and the Ottoman palate, changing local diets.",
+            "outcome_popped": "Kimchi stays largely within East Asia until modern globalization spreads it worldwide.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a Chola Empire sailor had discovered Madagascar’s resources first",
+            "outcome_granted": "South Indian maritime trade expands earlier to Madagascar, forging unique cultural blends.",
+            "outcome_popped": "Madagascar’s settlers come from Southeast Asia and Africa, eventually meeting various traders.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a Song Dynasty chemist had perfected gunpowder weapons widely",
+            "outcome_granted": "China’s dominance in warfare intensifies, but the arms race escalates even earlier globally.",
+            "outcome_popped": "Gunpowder spreads gradually, enabling later conflicts that shape global power balances.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a 17th-century Qing official had abolished foot binding unilaterally",
+            "outcome_granted": "Women’s mobility improves sooner, but conservative resistance sparks internal upheaval.",
+            "outcome_popped": "Foot binding persists for centuries, symbolizing tradition and oppression before eventual bans.",
+            "rating_outcome_granted": "+4",
+            "rating_outcome_popped": "-3"
+        },
+        {
+            "wish": "I wish an unnamed Yoruba sculptor had introduced lost-wax casting to Europe first",
+            "outcome_granted": "Brass and bronze masterpieces shift Renaissance sculpting traditions earlier.",
+            "outcome_popped": "Europe develops similar casting techniques independently, with African art recognized much later.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a Mississippian culture farmer had discovered advanced irrigation",
+            "outcome_granted": "North American city-states flourish, challenging European colonization with stronger infrastructures.",
+            "outcome_popped": "Irrigation remains modest, and Mississippian societies decline due to resource pressures.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an unnamed Polynesian chief had invented a written script",
+            "outcome_granted": "Oral traditions become textual, potentially altering the cultural transmission across Pacific islands.",
+            "outcome_popped": "Polynesia preserves a rich oral heritage, with writing introduced later by missionaries.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a random Amazonian tribe had discovered rubber’s properties centuries earlier",
+            "outcome_granted": "Rubber-based industries form in pre-Columbian times, but deforestation escalates early.",
+            "outcome_popped": "Rubber becomes a colonial resource, fueling the Industrial Revolution in the 19th century.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish an Inca architect had built suspension bridges across the Amazon Basin",
+            "outcome_granted": "The Inca Empire expands eastward, but maintaining such vast infrastructure strains resources.",
+            "outcome_popped": "Inca roads remain primarily in the Andes, with dense Amazon areas less connected.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a random Mongolian herdsman had discovered coffee in the steppe",
+            "outcome_granted": "A caffeine-fueled horde intensifies expansions, but coffee cultivation is nearly impossible on the plains.",
+            "outcome_popped": "Coffee eventually spreads from Ethiopia and the Middle East, shaping the Islamic world and beyond.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an Australian Aboriginal elder had introduced boomerang sports globally early",
+            "outcome_granted": "Precolonial trade in sports emerges, but cross-continental connections remain limited.",
+            "outcome_popped": "Boomerangs stay a cultural hallmark, eventually fascinating the rest of the world later.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a poor medieval jester had discovered basic ventriloquism",
+            "outcome_granted": "Court entertainment evolves quickly, possibly overshadowing dramatic performances.",
+            "outcome_popped": "Jesters amuse courts with conventional acts, leaving puppetry for future eras.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish a hidden Celtic blacksmith had forged Damascus steel independently",
+            "outcome_granted": "European knights acquire superior blades early, unbalancing crusades and local warfare.",
+            "outcome_popped": "Damascus steel remains prized from the East, retaining an aura of exotic mastery.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a timid medieval squire had revealed a gunpowder stash to the public",
+            "outcome_granted": "Feudal warfare transforms abruptly, knights become obsolete faster, leading to chaotic power grabs.",
+            "outcome_popped": "Gunpowder’s spread is gradual, giving militaries time to adapt in measured increments.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a Renaissance goldsmith had perfected cheap alchemy",
+            "outcome_granted": "Wealth floods Europe, collapsing economies under hyperinflation and limiting real innovation.",
+            "outcome_popped": "Alchemy remains a curiosity, paving the way for modern chemistry without crashing the market.",
+            "rating_outcome_granted": "-6",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a 15th-century Japanese potter had created near-indestructible porcelain",
+            "outcome_granted": "Porcelain becomes an eternal luxury, but trade suffers as few repeat purchases are needed.",
+            "outcome_popped": "Fragile porcelain becomes highly valued, boosting continuous demand and artistry.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a random Venetian glassblower had discovered plastic-like material early",
+            "outcome_granted": "Synthetic materials appear in the Renaissance, possibly creating waste issues centuries too soon.",
+            "outcome_popped": "Glassmaking thrives as an art, plastics wait for the Industrial Age, shaping modern pollution challenges.",
+            "rating_outcome_granted": "-4",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish an unnamed Templar knight had discovered the New World before Columbus",
+            "outcome_granted": "Secret Templar colonies form, mixing chivalry and local cultures with uncertain results.",
+            "outcome_popped": "The official European discovery occurs in 1492, triggering a well-documented colonial era.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a lonely Himalayan monk had perfected flight in the 12th century",
+            "outcome_granted": "A mystical flying device stuns the region, but no robust industry forms around it.",
+            "outcome_popped": "Flight awaits the Wright brothers, revolutionizing travel in the 20th century.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish a Mesopotamian potter had mass-produced clay tablets cheaply",
+            "outcome_granted": "Writing spreads widely early on, but it all depends on maintaining extensive clay libraries.",
+            "outcome_popped": "Clay tablets remain more specialized, paving the way for papyrus and later materials.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a random Napoleonic drummer boy had written an anti-war anthem",
+            "outcome_granted": "Public sentiment might shift, but Napoleon’s ambitions proceed regardless, labeling the boy a traitor.",
+            "outcome_popped": "No widespread anthem emerges, leaving Europe to learn from repeated wars organically.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish an unknown Carthaginian captain had defeated Rome at sea",
+            "outcome_granted": "Carthage wins a key naval victory, potentially reversing outcomes of the Punic Wars.",
+            "outcome_popped": "Rome’s dominance in the Mediterranean paves the way for its empire.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a Spartan hoplite invented a more comfortable helmet",
+            "outcome_granted": "Spartans fight with fewer headaches, but remain no less warlike or austere.",
+            "outcome_popped": "Traditional heavy helmets define their martial culture, forging discipline and unity.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish an Athenian farmer had discovered democracy before Solon",
+            "outcome_granted": "A grassroots version of democracy might have formed, but aristocrats likely suppress it quickly.",
+            "outcome_popped": "Reforms by leaders like Solon and Cleisthenes shape classical Athens and Western political thought.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish a bored Persian merchant invented the printing press pre-Gutenberg",
+            "outcome_granted": "Printed books spread across the Islamic world faster, possibly altering the flow of knowledge to Europe.",
+            "outcome_popped": "Gutenberg’s invention catalyzes European reformation and scientific advancement.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish a lost Egyptian scribe had built a papyrus empire centuries earlier",
+            "outcome_granted": "International trade in papyrus booms, fueling earlier literacy but straining the Nile’s resources.",
+            "outcome_popped": "Papyrus remains a significant export, but widespread global use awaits cheaper alternatives later.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a prehistoric gatherer in Africa had discovered agriculture much sooner",
+            "outcome_granted": "Civilization sparks earlier in certain African regions, potentially shifting global power timelines.",
+            "outcome_popped": "Agriculture spreads gradually, enabling complex societies at a sustainable pace.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a small Celtic tribe had discovered steel forging in 500 BCE",
+            "outcome_granted": "Their superior weapons dominate local conflicts, but they eventually attract unstoppable attention.",
+            "outcome_popped": "Steel forging emerges over time, balancing developments among various ancient cultures.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an indigenous North American confederation had domesticated horses earlier",
+            "outcome_granted": "Mobility and trade flourish, but conflicts with neighboring tribes intensify, reshaping power balances.",
+            "outcome_popped": "Horses arrive with Europeans, massively changing Great Plains cultures after contact.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a random Crusader foot soldier had invented safe canning techniques",
+            "outcome_granted": "Long-lasting food storage bolsters armies, possibly extending crusades further.",
+            "outcome_popped": "Canning remains a later invention, changing warfare and exploration in the 19th century.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a bored Roman Senator had discovered chili peppers in ancient times",
+            "outcome_granted": "Spicy cuisine spreads in Rome, but trade routes shift early, possibly overshadowing black pepper’s role.",
+            "outcome_popped": "Europe waits until after the Columbian exchange to embrace chili peppers.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a Phoenician craftsman had perfected low-cost purple dye",
+            "outcome_granted": "Purple no longer symbolizes high royalty, changing social hierarchy markers in antiquity.",
+            "outcome_popped": "Expensive Tyrian purple remains a sign of imperial power for centuries.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish an Old Norse poet had invented an early printing press",
+            "outcome_granted": "Sagas spread widely, strengthening Scandinavian cultural influence, but still overshadowed by Europe's later moves.",
+            "outcome_popped": "Norse lore stays partly oral, surviving in limited manuscripts that become invaluable later.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an obscure Ming Dynasty official had led a large-scale expedition to Australia",
+            "outcome_granted": "Chinese presence influences Australia’s history centuries before Europeans arrive.",
+            "outcome_popped": "Ming voyages remain focused on Southeast Asia and the Indian Ocean, leaving Australia for later explorers.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a medieval Arabian doctor had discovered vaccines",
+            "outcome_granted": "Disease prevention leaps forward early, but global acceptance lags due to limited communication.",
+            "outcome_popped": "Vaccines emerge in modern times (Jenner), revolutionizing public health centuries later.",
+            "rating_outcome_granted": "+6",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish a random Moroccan traveler had fully mapped the Sahara’s trade routes",
+            "outcome_granted": "Commerce expands, but desert control intensifies political rivalries over salt and gold.",
+            "outcome_popped": "Trade caravans persist with partial routes, shaping West African kingdoms gradually.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a French blacksmith’s apprentice had discovered the steam engine pre-1700",
+            "outcome_granted": "An earlier industrial revolution disrupts Europe’s balance of power, possibly igniting wars sooner.",
+            "outcome_popped": "Steam power arrives in the 18th century, fueling a measured surge in industry.",
+            "rating_outcome_granted": "-3",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a Gaelic fisherman had charted the northern Atlantic in 1000 CE",
+            "outcome_granted": "Frequent contact with North America influences Europe's resources and possibly delays certain expansions.",
+            "outcome_popped": "Europe rediscovers the New World in 1492, leading to a well-documented age of colonization.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a bored Polynesian priest had discovered chocolate while drifting to Mesoamerica",
+            "outcome_granted": "Chocolate traditions spread to Polynesia pre-Columbian contact, but remain limited by ocean voyages.",
+            "outcome_popped": "Chocolate enters the Old World after Spanish conquests, becoming a lavish European delight.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a bored Ming soldier had invented hot-air balloons",
+            "outcome_granted": "Reconnaissance changes warfare, though adoption is slow and suspicion is high.",
+            "outcome_popped": "Hot-air balloons later appear in 18th-century Europe, capturing imaginations worldwide.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a random 14th-century monk had set up Europe's first university for women",
+            "outcome_granted": "Early female education spurs a cultural shift, facing massive resistance but planting seeds of equality.",
+            "outcome_popped": "Women's formal education develops gradually, culminating in later centuries of reform.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a lone Tibetan scholar had proven the Earth orbits the sun in 900 CE",
+            "outcome_granted": "Tibet becomes a brief epicenter of astronomy, though global acceptance lags behind the church’s doctrines.",
+            "outcome_popped": "Heliocentrism awaits Copernicus, Galileo, and Kepler’s breakthroughs in early modern Europe.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish a random Gaelic chieftain had declared independence from Rome in 50 CE",
+            "outcome_granted": "Rome invests more troops in a far-flung Gaelic region, possibly straining resources earlier.",
+            "outcome_popped": "Roman expansion continues steadily, with Gaul eventually integrated into the empire’s structure.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a Mesoamerican youth had discovered metal forging methods pre-contact",
+            "outcome_granted": "Aztec or Maya civilizations develop stronger weapons, shifting the balance against Spanish conquistadors.",
+            "outcome_popped": "Metal forging remains limited, leaving them vulnerable to armored European forces.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "-4"
+        },
+        {
+            "wish": "I wish a bored medieval mathematician had invented advanced calculus",
+            "outcome_granted": "Complex mathematics enters the Middle Ages, outpacing the era’s capacity to utilize it effectively.",
+            "outcome_popped": "Calculus surfaces with Newton and Leibniz, fueling modern science and engineering.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+8"
+        },
+        {
+            "wish": "I wish a random Renaissance herbalist had discovered penicillin",
+            "outcome_granted": "Infections drop drastically, but incomplete medical theory leads to haphazard antibiotic use.",
+            "outcome_popped": "Penicillin waits until Fleming’s time, revolutionizing medicine when the world is ready.",
+            "rating_outcome_granted": "+4",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish a shy Moorish librarian had compiled a universal encyclopedia",
+            "outcome_granted": "Knowledge centralizes in Al-Andalus, influencing Europe's scholars early, but the library might be lost in wars.",
+            "outcome_popped": "Learning remains scattered, culminating in later encyclopedic efforts like Diderot’s.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a small Teutonic knight order never battled pagan Baltic tribes",
+            "outcome_granted": "Christianization of the Baltics slows, leaving them more culturally independent for longer.",
+            "outcome_popped": "The order’s wars unify or oppress Baltic lands, shaping local identities with a Christian overlay.",
+            "rating_outcome_granted": "-1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an unnoticed Jewish scholar in medieval Spain had invented the telescope",
+            "outcome_granted": "Stargazing leaps ahead, possibly clashing with religious authorities far earlier.",
+            "outcome_popped": "Galileo and others popularize telescopes in the 17th century, igniting the scientific revolution.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+7"
+        },
+        {
+            "wish": "I wish a random Knight Hospitaller had brought coffee to Europe in the 12th century",
+            "outcome_granted": "Early coffee culture emerges, influencing Crusader states and European monasteries alike.",
+            "outcome_popped": "Coffee enters Europe later through Ottoman intermediaries, fostering Enlightenment coffeehouses.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an ambitious Moorish cartographer had accurately mapped West Africa in 900 CE",
+            "outcome_granted": "Trade with Ghana and Mali intensifies, forging stronger Islamic and Saharan connections early.",
+            "outcome_popped": "Explorers and traders piece together Africa’s geography over centuries, shaping gradual contact.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an intrepid Amazonian warrior had established a formal queen’s dynasty",
+            "outcome_granted": "A matriarchal tribe garners legendary status, possibly resisting European incursions differently.",
+            "outcome_popped": "Amazon region remains fragmented among tribes, eventually succumbing to colonization.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "-2"
+        },
+        {
+            "wish": "I wish an Andean shepherd had discovered electricity from electric eels",
+            "outcome_granted": "Primitive understanding of bioelectricity arises, but harnessing it remains elusive pre-industrial era.",
+            "outcome_popped": "Electric phenomena are systematically studied centuries later in more scientific contexts.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an Australian Aboriginal tracker had taught desert survival globally",
+            "outcome_granted": "Arid nations adopt advanced survival methods sooner, reducing certain casualties but limiting local secrets.",
+            "outcome_popped": "Such knowledge remains within Aboriginal communities until modern interest fosters cultural exchange.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a bored Venetian gondolier discovered a sea route to Asia first",
+            "outcome_granted": "He stumbles into maritime fame, overshadowing Portuguese and Spanish explorers, but Venice tries to monopolize trade.",
+            "outcome_popped": "Portugal leads the route-finding era, reshaping global trade and overshadowing Venice’s older routes.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish an anonymous Basque whaler had found Antarctica in the 14th century",
+            "outcome_granted": "A short-lived Basque settlement forms in icy conditions, barely surviving and soon forgotten.",
+            "outcome_popped": "Polar regions remain uncharted until later explorers risk the frozen frontiers.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a Gaelic poet in 12th-century Ireland had invented novel writing",
+            "outcome_granted": "Narrative prose flourishes early in Celtic lands, possibly overshadowing Latin traditions.",
+            "outcome_popped": "Novel forms develop later across Europe, culminating in wide literary diversity.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a traveling Indian dancer had introduced yoga to medieval Europe",
+            "outcome_granted": "Some monastic orders adopt yoga-like disciplines, but suspicion from Church authorities arises.",
+            "outcome_popped": "Yoga’s global popularity unfolds centuries later, shaping modern wellness movements.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish a random pirate in the Caribbean had legalized safe havens for all ships",
+            "outcome_granted": "Piracy might decline as regulated trade emerges, but corrupt authorities stifle the initiative.",
+            "outcome_popped": "Pirates remain outlaws, fueling legendary tales of treasure and the Golden Age of Piracy.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a bored Victorian telegraph operator had invented the telephone first",
+            "outcome_granted": "He patents it, overshadowing Bell, but corporate wrangling still slows widespread adoption.",
+            "outcome_popped": "Bell’s telephone gains traction, revolutionizing communication step by step.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish an unknown French cavalryman had harnessed flight suits in 1700",
+            "outcome_granted": "Crude gliders appear, but frequent crashes deter broader interest, shifting flight research unpredictably.",
+            "outcome_popped": "Flight remains an 18th-19th-century curiosity with balloons, culminating in the Wright brothers’ success.",
+            "rating_outcome_granted": "-2",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a random British inventor had perfected electric cars in 1900",
+            "outcome_granted": "Early electric vehicles might dominate, potentially averting future fossil-fuel dependency but facing battery tech limits.",
+            "outcome_popped": "Gasoline cars rule the 20th century, shaping urban development and climate challenges.",
+            "rating_outcome_granted": "+5",
+            "rating_outcome_popped": "-2"
+        },
+        {
+            "wish": "I wish an unknown Chinese artisan had patented paper money centuries earlier",
+            "outcome_granted": "Paper currency spreads swiftly, risking inflation and distrust but facilitating trade even more broadly.",
+            "outcome_popped": "Paper money gradually influences economies, refined by multiple dynasties over time.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+3"
+        },
+        {
+            "wish": "I wish an unnoticed Polish mathematician had solved major theorems before Gauss",
+            "outcome_granted": "Breakthroughs accelerate math progress, overshadowing Gauss but possibly sowing confusion without peer acceptance.",
+            "outcome_popped": "Gauss’s recognized genius organizes the field, shaping modern mathematics systematically.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+6"
+        },
+        {
+            "wish": "I wish a lonely Australian rancher had invented wireless communication ahead of Marconi",
+            "outcome_granted": "Radio emerges in the Outback, but global recognition is slow, limiting immediate uptake.",
+            "outcome_popped": "Marconi’s success influences maritime safety and mass communication worldwide.",
+            "rating_outcome_granted": "0",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish a random Spanish nun had discovered solar panels in the 18th century",
+            "outcome_granted": "Solar technology arises earlier, though 18th-century science struggles to refine it.",
+            "outcome_popped": "Solar emerges in the 20th century, playing catch-up with fossil fuels in modern times.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+4"
+        },
+        {
+            "wish": "I wish a small Burmese village had perfected synthetic rubber",
+            "outcome_granted": "Colonial powers scramble for advantage, possibly triggering earlier exploitation or industrial booms.",
+            "outcome_popped": "Rubber technology develops worldwide as demand grows, culminating in major industrial expansions.",
+            "rating_outcome_granted": "+1",
+            "rating_outcome_popped": "+2"
+        },
+        {
+            "wish": "I wish an isolated Scottish crofter had discovered penicillin a century before Fleming",
+            "outcome_granted": "Antibiotics appear early, but misuse might hamper effective development, risking resistant strains faster.",
+            "outcome_popped": "Fleming’s 20th-century discovery revolutionizes healthcare in a more prepared scientific environment.",
+            "rating_outcome_granted": "+4",
+            "rating_outcome_popped": "+9"
+        },
+        {
+            "wish": "I wish an unknown Swiss watchmaker invented quartz watches in the 18th century",
+            "outcome_granted": "Highly accurate timekeeping appears, but mechanical watchmaking traditions might fade prematurely.",
+            "outcome_popped": "Quartz watches revolutionize the industry in the 20th century, after centuries of mechanical refinement.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "+5"
+        },
+        {
+            "wish": "I wish an unremarkable Brazilian rubber tapper discovered plastic recycling in 1850",
+            "outcome_granted": "Eco-friendly mindset develops earlier, but global plastic usage is still centuries away.",
+            "outcome_popped": "Recycling emerges in modern times, struggling to address the monumental plastic problem.",
+            "rating_outcome_granted": "+2",
+            "rating_outcome_popped": "-1"
+        },
+        {
+            "wish": "I wish a quiet Dutch miller had harnessed wind energy to generate electricity in 1600",
+            "outcome_granted": "Early wind turbines arrive, but grids to distribute power are nonexistent, limiting immediate impact.",
+            "outcome_popped": "Wind power becomes a viable renewable centuries later, aiding modern green energy transitions.",
+            "rating_outcome_granted": "+3",
+            "rating_outcome_popped": "+4"
         }
     ]
 }
