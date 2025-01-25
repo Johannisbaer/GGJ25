@@ -21,6 +21,8 @@ For Oana, Ari, CJ, Reto and Jo at the Global Game Jam 2025
     - git config user.name "Your Name"
     - git config user.email "your.email@example.com"
     - git config http.postBuffer 524288000
+    - git config --global alias.pullGGJ25 "!git fetch && git rebase -X theirs origin/main"
+    - git pullGGJ25
 - Call me to check your install
 - Optional, but best practise: [Create a virtual environment for Python](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 - Optional for Python/AI gaming: Pygame install
