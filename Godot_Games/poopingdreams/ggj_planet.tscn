@@ -1,8 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://cnp1tqyy5t5xf"]
+[gd_scene load_steps=3 format=3 uid="uid://cnp1tqyy5t5xf"]
 
 [ext_resource type="PackedScene" uid="uid://bv1v7stk5s8ks" path="res://models/GGJ Planet.blend" id="1_6k2t0"]
+[ext_resource type="PackedScene" uid="uid://bsuv2n0wxilar" path="res://models/GGJ Planet.glb" id="2_cjv1k"]
 
 [node name="GGJ Planet" instance=ExtResource("1_6k2t0")]
 
-[node name="Light" parent="." index="1"]
-visible = false
+[node name="GGJ Planet" parent="." index="2" instance=ExtResource("2_cjv1k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.84281, 0, -1.03657)

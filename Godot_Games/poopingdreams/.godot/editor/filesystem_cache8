@@ -1,6 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737800029
-icon.svg::CompressedTexture2D::2373643383852355956::1737796356::1737796386::1::::<><>::
-::res://models/::1737800933
-GGJ Planet.blend::PackedScene::3915393399217164506::1737800933::1737800937::1::::<><>::
-GGJ Planets2.blend::PackedScene::8439663005137052892::1737795988::1737799707::1::::<><>::
+::res://::1737816143
+ggj_planet.tscn::PackedScene::5717875451467871619::1737808304::0::1::::<><>::uid://bv1v7stk5s8ks::::res://models/GGJ Planet.blend
+icon.svg::CompressedTexture2D::2373643383852355956::1737808304::1737816208::1::::<><>::
+::res://models/::1737810138
+GGJ Planet.blend::PackedScene::3915393399217164506::1737810138::1737816218::1::::<><>::
+GGJ Planet.glb::PackedScene::3692431419996711917::1737809700::1737816225::1::::<><>::
+GGJ Planets2.blend::PackedScene::8439663005137052892::1737808305::1737816376::1::::<><>::
