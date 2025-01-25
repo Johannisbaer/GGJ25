@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnp1tqyy5t5xf"]
+
+[ext_resource type="PackedScene" uid="uid://bv1v7stk5s8ks" path="res://models/GGJ Planet.blend" id="1_6k2t0"]
+
+[node name="GGJ Planet" instance=ExtResource("1_6k2t0")]
+
+[node name="Light" parent="." index="1"]
+visible = false
