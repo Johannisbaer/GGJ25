@@ -1,6 +1,6 @@
 1. Bubble Spawn Area
-	•	Model a curved triangular surface in Blender to act as the bubble spawn area.
-	•	Ensure it fits the visible area from the fixed camera perspective.
+- Model a curved triangular surface in Blender to act as the bubble spawn area.
+- Ensure it fits the visible area from the fixed camera perspective.
 	•	Add enough subdivisions to allow for smooth curvature.
 	•	Export the spawn area as a .glb or .gltf file and import it into Godot.
 	•	Create a script in Godot to:
