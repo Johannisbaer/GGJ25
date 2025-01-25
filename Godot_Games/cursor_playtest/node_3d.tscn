@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5b0teffuyxmk"]
+
+[ext_resource type="Script" path="res://CursorIcone.gd" id="1_ej1hd"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_ej1hd")
