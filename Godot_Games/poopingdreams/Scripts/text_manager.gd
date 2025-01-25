@@ -1,7 +1,7 @@
 extends Node
 
 @export var json_file_path: String = "res://text_data/wishes.json"  # Path to the JSON file
-@export var spawn_interval: float = 5.0  # Time in seconds between spawns
+@export var spawn_interval: float = 20.0  # Time in seconds between spawns
 
 var wishes: Array = []  # List of wishes with outcomes
 var time_since_last_spawn: float = 0.0  # Timer to track spawn events
@@ -14,8 +14,6 @@ func _ready() -> void:
 	# Load the JSON file and populate the wishes array
 	if _load_json_file(json_file_path):
 		print("Wishes loaded successfully!")
-		for wish_data in wishes:
-			print("Wish:", wish_data["wish"])
 	else:
 		print("Failed to load wishes!")
 
@@ -47,6 +45,6 @@ func _load_json_file(file_path: String) -> bool:
 # Triggers a spawn event using a random wish
 func _trigger_spawn_event() -> void:
 	var random_wish = wishes[randi() % wishes.size()]  # Pick a random wish
-	print("Spawn event triggered with wish:", random_wish["wish"])
+	print("TM - Sending wish: ", random_wish["wish"])
 	# Emit the signal with the wish data
 	emit_signal("spawn_event", random_wish)
