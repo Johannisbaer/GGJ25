@@ -1,7 +1,7 @@
 extends MeshInstance3D
 
 @export var move_speed: float = 0.005  # Speed of movement
-@export var direction_interval: float = 2.0  # Time (in seconds) for each direction
+@export var direction_interval: float = 5.0  # Time (in seconds) for each direction
 
 var time_since_change: float = 0.0  # Timer to track direction change
 var current_direction: int = 0  # Tracks which direction is currently active

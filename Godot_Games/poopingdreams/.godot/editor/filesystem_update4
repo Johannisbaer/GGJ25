@@ -2,3 +2,4 @@ res://ggj_planet.tscn
 res://planet_and_clouds.tscn
 res://StandardAlbedo/new_standard_material_3d.tres
 res://Scripts/clouds.gd
+res://Scripts/text_manager.gd

@@ -1,0 +1,29 @@
+{
+    "wishes": [
+        {
+            "wish": "I wish for a sunny day",
+            "outcome_granted": "Your wish for a sunny day has been granted!",
+            "outcome_popped": "Your wish for a sunny day has popped."
+        },
+        {
+            "wish": "I wish for a new adventure",
+            "outcome_granted": "Your wish for a new adventure has been granted!",
+            "outcome_popped": "Your wish for a new adventure has popped."
+        },
+        {
+            "wish": "I wish to meet new friends",
+            "outcome_granted": "Your wish to meet new friends has been granted!",
+            "outcome_popped": "Your wish to meet new friends has popped."
+        },
+        {
+            "wish": "I wish for happiness",
+            "outcome_granted": "Your wish for happiness has been granted!",
+            "outcome_popped": "Your wish for happiness has popped."
+        },
+        {
+            "wish": "I wish for more knowledge",
+            "outcome_granted": "Your wish for more knowledge has been granted!",
+            "outcome_popped": "Your wish for more knowledge has popped."
+        }
+    ]
+}
