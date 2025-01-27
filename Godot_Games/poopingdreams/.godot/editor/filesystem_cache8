@@ -1,9 +1,33 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737816947
-ggj_planet.tscn::PackedScene::5717875451467871619::1737816739::0::1::::<><>::uid://bv1v7stk5s8ks::::res://models/GGJ Planet.blend<>uid://bsuv2n0wxilar::::res://models/GGJ Planet.glb
-icon.svg::CompressedTexture2D::2373643383852355956::1737808304::1737816208::1::::<><>::
-::res://models/::1737817591
-GGJ Planet.blend::PackedScene::3915393399217164506::1737816947::1737816218::1::::<><>::
-GGJ Planet.glb::PackedScene::3692431419996711917::1737809700::1737817541::1::::<><>::
-GGJ Planets2.blend::PackedScene::8439663005137052892::1737808305::1737816376::1::::<><>::
-GGJ Planets_edited.glb::PackedScene::5060175729119874943::1737817502::1737817610::1::::<><>::
+::res://::1737994863
+Bubble.tscn::PackedScene::2120948025742869545::1737990614::0::1::::<><>::res://Scripts/bubble_main.gd<>res://label_3d.gd
+cut_out_hand_pointing (1).png::CompressedTexture2D::394990953793914351::1737988881::1737994579::1::::<><>::
+ggj_planet.tscn::PackedScene::5717875451467871619::1737988881::0::1::::<><>::uid://bv1v7stk5s8ks::::res://models/GGJ Planet.blend<>uid://bsuv2n0wxilar::::res://models/GGJ Planet.glb<>uid://cedgmcliyun4r::::res://models/GGJ Planets_edited.glb
+icon.svg::CompressedTexture2D::2373643383852355956::1737988881::1737994579::1::::<><>::
+label_3d.gd::GDScript::-1::1737990614::0::1::::<>Label3D<>::
+planet_and_clouds.tscn::PackedScene::9052435753798951835::1737990615::0::1::::<><>::uid://cedgmcliyun4r::::res://models/GGJ Planets_edited.glb<>uid://dk0sx7oqy2d67::::res://StandardAlbedo/new_standard_material_3d.tres<>res://Scripts/clouds.gd<>res://Scripts/Global.gd<>res://Scripts/text_manager.gd<>res://Scripts/bubble_spawner.gd
+::res://Images/::1737994579
+Logo.jpeg::CompressedTexture2D::3836672315206316562::1737907039::1737994579::1::::<><>::
+::res://models/::1737994764
+Bubble.blend::PackedScene::4388184256184774441::1737988881::1737994589::1::::<><>::
+Bubble.glb::PackedScene::9165563805786953139::1737988881::1737994589::1::::<><>::
+GGJ Planet.blend::PackedScene::3915393399217164506::1737988881::1737994596::1::::<><>::
+GGJ Planet.glb::PackedScene::3692431419996711917::1737988881::1737994602::1::::<><>::
+GGJ Planets2.blend::PackedScene::8439663005137052892::1737988882::1737994751::1::::<><>::
+GGJ Planets_edited.glb::PackedScene::5060175729119874943::1737988882::1737994764::1::::<><>::
+Spawn.blend::PackedScene::6784891108278990935::1737988882::1737994764::1::::<><>::
+::res://Scripts/::1737990614
+bubble_main.gd::GDScript::-1::1737990614::0::1::::<>Node3D<>::
+bubble_spawn.gd::GDScript::-1::1737988881::0::1::::<>MeshInstance3D<>::
+bubble_spawner.gd::GDScript::-1::1737990614::0::1::::<>Node3D<>::
+clouds.gd::GDScript::-1::1737988881::0::1::::<>MeshInstance3D<>::
+Global.gd::GDScript::-1::1737990614::0::1::::<>Node3D<>::
+text_manager.gd::GDScript::-1::1737990614::0::1::::<>Node<>::
+::res://Sound/::1737994579
+Fun-crescendo-background-music.mp3::AudioStreamMP3::453686164262580785::1737846171::1737994578::1::::<><>::
+Negative-end.wav::AudioStreamWAV::2609899320923391588::1737845922::1737994579::1::::<><>::
+Preferred-bubble-popping.mp3::AudioStreamMP3::8221524676028965786::1737844624::1737994578::1::::<><>::
+::res://StandardAlbedo/::1737988881
+new_standard_material_3d.tres::StandardMaterial3D::7913895613575301410::1737988881::0::1::::<><>::
+::res://text_data/::1737990615
+wishes.json::JSON::-1::1737990615::0::1::::<><>::
