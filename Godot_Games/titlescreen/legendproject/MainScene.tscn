@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://c17s6yi2hc1bf"]
+
+[ext_resource type="Script" path="res://MainScene_backup.gd" id="1_g1g7l"]
+
+[node name="MainScene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_g1g7l")
+
+[node name="TextBoxPanel" type="Panel" parent="."]
+custom_minimum_size = Vector2(400, 237)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 880.0
+offset_top = 20.0
+offset_right = 1280.0
+offset_bottom = 220.0
+grow_horizontal = 0
+
+[node name="TextLabel" type="RichTextLabel" parent="TextBoxPanel"]
+layout_mode = 0
+offset_right = 400.0
+offset_bottom = 237.0
+tab_size = 5
+
+[node name="HappinessMeter" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 116.0
+offset_top = 633.0
+offset_right = 1174.0
+offset_bottom = 691.0
+
+[node name="ZeroMarker" type="Polygon2D" parent="HappinessMeter"]
+position = Vector2(528, 21)
+color = Color(0.773344, 0.629342, 0.194138, 1)
+polygon = PackedVector2Array(-10, 0, 10, 0, 0, -20)
+
+[node name="Fill" type="ColorRect" parent="HappinessMeter"]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 21.0
+offset_right = 528.0
+offset_bottom = 79.0

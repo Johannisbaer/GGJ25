@@ -1,1 +1,0 @@
-This is where assets are stored and documented.
