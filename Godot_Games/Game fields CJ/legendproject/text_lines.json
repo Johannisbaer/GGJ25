@@ -1,0 +1,36 @@
+{
+  "lines": [
+	  {
+		  "text": "Welcome to the game!",
+		  "score": 5
+	  },
+	  {
+		  "text": "This is the first line of text.",
+		  "score": -3
+	  },
+	  {
+		  "text": "Another exciting line!",
+		  "score": 2
+	  },
+	  {
+		  "text": "Yet another one for the text box.",
+		  "score": 4
+	  },
+	  {
+		  "text": "Keep going, you’re doing great!",
+		  "score": -1
+	  },
+	  {
+		  "text": "And another one",
+		  "score": -4
+	  },
+	  {
+		  "text": "And another one",
+		  "score": 8
+	  },
+	  {
+		  "text": "And another one",
+		  "score": 3
+	  }
+  ]
+}

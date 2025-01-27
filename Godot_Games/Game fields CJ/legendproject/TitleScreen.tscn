@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://hc4glgym523p"]
+
+[ext_resource type="Script" path="res://start_button_script.gd" id="1_nyo81"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_nyo81")
+
+[node name="TitleLabel" type="Label" parent="."]
+layout_direction = 2
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 249.0
+offset_top = 160.0
+offset_right = 991.0
+offset_bottom = 297.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+text = "Dream Bubbles"
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 547.5
+offset_top = 406.0
+offset_right = 732.5
+offset_bottom = 490.0
+theme_override_font_sizes/font_size = 50
+text = "Start"
+
+[node name="Credits" type="Label" parent="."]
+layout_mode = 0
+offset_left = 306.5
+offset_top = 574.0
+offset_right = 973.5
+offset_bottom = 653.0
+theme_override_font_sizes/font_size = 30
+text = "Created by: Johannes, Oana, Reto, Cristian, Arianna"
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
