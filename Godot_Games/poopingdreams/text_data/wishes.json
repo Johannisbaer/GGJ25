@@ -1,11 +1,11 @@
 {
     "wishes": [
         {
-            "wish": "I wish for a sunny day",
-            "outcome_granted": "Your wish for a sunny day has been granted!",
-            "outcome_popped": "Your wish for a sunny day has popped.",
-            "score_popped" : "5",
-            "score_granted" : "-4"
+            "wish": "I wish people would stop eating animals",
+            "outcome_granted": "The CO2 levels go down drastically, bringing the world on the path to saving our climate as meat consumption becomes a thing of the past.",
+            "outcome_popped": "The world stays the same, while someone pets their puppy and enjoys a big-ass dry-aged steak from the prettiest cow in the region two months ago.",
+            "rating_outcome_granted": "+8",
+            "rating_outcome_popped": "-2"
         },
         {
             "wish": "I wish everyone in the world would have all the food they can eat",
@@ -29,9 +29,9 @@
             "rating_outcome_popped": "-10"
         },
         {
-            "wish": "I wish I wasn't in pain",
+            "wish": "I wish I wasn’t in pain",
             "outcome_granted": "Frida Kahlo paints cheerful flowers, but her lack of struggle makes her art less memorable to the world.",
-            "outcome_popped": "Frida's pain drives her to create masterpieces that everyone buys as prints from IKEA.",
+            "outcome_popped": "Frida’s pain drives her to create masterpieces that everyone buys as prints from IKEA.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+7"
         },
@@ -50,7 +50,7 @@
             "rating_outcome_popped": "+4"
         },
         {
-            "wish": "I wish apples didn't fall on my head",
+            "wish": "I wish apples didn’t fall on my head",
             "outcome_granted": "The apple misses Isaac Newton, who never discovers gravity, leaving humanity to blame random demons for why things fall.",
             "outcome_popped": "The apple hits Newton, who invents calculus, and students worldwide curse his name centuries later.",
             "rating_outcome_granted": "-5",
@@ -58,7 +58,7 @@
         },
         {
             "wish": "I wish people would believe my theory of relativity",
-            "outcome_granted": "Albert Einstein's theory is accepted immediately, but he spends decades explaining it to people who nod and pretend to understand.",
+            "outcome_granted": "Albert Einstein’s theory is accepted immediately, but he spends decades explaining it to people who nod and pretend to understand.",
             "outcome_popped": "No one believes Einstein, and he retires to a quiet life making clocks while relativity is rediscovered by someone named Steve.",
             "rating_outcome_granted": "+6",
             "rating_outcome_popped": "-3"
@@ -100,14 +100,14 @@
         },
         {
             "wish": "I wish the Great Library of Alexandria had been fireproof",
-            "outcome_granted": "The library's scrolls survive, accelerating global science by centuries.",
+            "outcome_granted": "The library’s scrolls survive, accelerating global science by centuries.",
             "outcome_popped": "Fires destroy the library, leaving humanity with only fragments of ancient knowledge.",
             "rating_outcome_granted": "+9",
             "rating_outcome_popped": "-4"
         },
         {
             "wish": "I wish the Colossus of Rhodes still stood",
-            "outcome_granted": "Tourists flock to the ancient statue, straining the island's infrastructure.",
+            "outcome_granted": "Tourists flock to the ancient statue, straining the island’s infrastructure.",
             "outcome_popped": "An earthquake topples the wonder, and its legend grows in memory.",
             "rating_outcome_granted": "+3",
             "rating_outcome_popped": "-1"
@@ -136,12 +136,12 @@
         {
             "wish": "I wish the Temple of Artemis never burned down",
             "outcome_granted": "A glorious temple stands as a beacon of worship, overshadowing neighboring city-states' shrines.",
-            "outcome_popped": "Destroyed by fire, it's rebuilt but eventually lost, symbolizing fleeting grandeur.",
+            "outcome_popped": "Destroyed by fire, it’s rebuilt but eventually lost, symbolizing fleeting grandeur.",
             "rating_outcome_granted": "+3",
             "rating_outcome_popped": "-1"
         },
         {
-            "wish": "I wish King Arthur's legend was undeniably true",
+            "wish": "I wish King Arthur’s legend was undeniably true",
             "outcome_granted": "Camelot stands, British politics revolve around Excalibur, and wizardly advisement shapes medieval Europe.",
             "outcome_popped": "King Arthur remains half-myth, inspiring centuries of chivalric romance.",
             "rating_outcome_granted": "+1",
@@ -155,9 +155,9 @@
             "rating_outcome_popped": "+5"
         },
         {
-            "wish": "I wish Charlemagne hadn't been crowned Emperor",
+            "wish": "I wish Charlemagne hadn’t been crowned Emperor",
             "outcome_granted": "Europe lacks a unifying emperor, potentially fracturing earlier, slowing the Holy Roman Empire concept.",
-            "outcome_popped": "Charlemagne's coronation shapes feudalism and church-state relations for centuries.",
+            "outcome_popped": "Charlemagne’s coronation shapes feudalism and church-state relations for centuries.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+4"
         },
@@ -169,7 +169,7 @@
             "rating_outcome_popped": "+6"
         },
         {
-            "wish": "I wish the Avignon Papacy hadn't happened",
+            "wish": "I wish the Avignon Papacy hadn’t happened",
             "outcome_granted": "The Papal seat remains in Rome, reducing the Great Schism but limiting potential church reforms.",
             "outcome_popped": "Moving the papacy to Avignon triggers crises, shaping Catholic politics and future reforms.",
             "rating_outcome_granted": "-1",
@@ -183,14 +183,14 @@
             "rating_outcome_popped": "+5"
         },
         {
-            "wish": "I wish the Hundred Years' War never began",
+            "wish": "I wish the Hundred Years’ War never began",
             "outcome_granted": "France and England avoid prolonged conflict, forging national identities more slowly.",
             "outcome_popped": "Century-long hostilities shape modern France and England, fueling patriotism and military evolution.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+4"
         },
         {
-            "wish": "I wish Gutenberg hadn't invented the printing press",
+            "wish": "I wish Gutenberg hadn’t invented the printing press",
             "outcome_granted": "Literacy spreads slowly, the Reformation is delayed, and knowledge remains in monastic circles.",
             "outcome_popped": "Printing transforms Europe, fueling revolutions and mass education.",
             "rating_outcome_granted": "-5",
@@ -206,7 +206,7 @@
         {
             "wish": "I wish Machiavelli never wrote 'The Prince'",
             "outcome_granted": "Power-hungry leaders lack a cynical guide, possibly leading to more idealistic but naive governance.",
-            "outcome_popped": "Machiavelli's work influences realpolitik, shaping the strategies of rulers for generations.",
+            "outcome_popped": "Machiavelli’s work influences realpolitik, shaping the strategies of rulers for generations.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "-2"
         },
@@ -227,28 +227,28 @@
         {
             "wish": "I wish Vasco da Gama never rounded the Cape of Good Hope",
             "outcome_granted": "Direct European sea trade to Asia is delayed, affecting spice flow and colonial ambitions.",
-            "outcome_popped": "Portugal's route to India kicks off an era of maritime empires and fierce competition.",
+            "outcome_popped": "Portugal’s route to India kicks off an era of maritime empires and fierce competition.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish Ferdinand Magellan never attempted to circumnavigate the globe",
-            "outcome_granted": "Global navigation remains uncertain longer, as Earth's circumference is unverified.",
-            "outcome_popped": "His voyage proves the world's roundness, despite his own death and high crew casualties.",
+            "outcome_granted": "Global navigation remains uncertain longer, as Earth’s circumference is unverified.",
+            "outcome_popped": "His voyage proves the world’s roundness, despite his own death and high crew casualties.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+7"
         },
         {
             "wish": "I wish Hernán Cortés turned back instead of conquering the Aztecs",
             "outcome_granted": "Tenochtitlan thrives longer under Aztec rule, but Spanish ambitions find another route into Mesoamerica.",
-            "outcome_popped": "Cortés's conquest topples the Aztecs, reshaping the cultural and demographic landscape.",
+            "outcome_popped": "Cortés’s conquest topples the Aztecs, reshaping the cultural and demographic landscape.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "-5"
         },
         {
             "wish": "I wish Francisco Pizarro never entered Inca lands",
             "outcome_granted": "The Inca Empire endures, though Spanish colonization efforts shift and eventually reach them anyway.",
-            "outcome_popped": "Pizarro's conquest dismantles the empire, paving the way for Spanish rule in South America.",
+            "outcome_popped": "Pizarro’s conquest dismantles the empire, paving the way for Spanish rule in South America.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "-6"
         },
@@ -261,7 +261,7 @@
         },
         {
             "wish": "I wish Mary, Queen of Scots, had never claimed the English throne",
-            "outcome_granted": "She remains in Scotland, avoiding Elizabeth's ire, yet struggles with local rebellions.",
+            "outcome_granted": "She remains in Scotland, avoiding Elizabeth’s ire, yet struggles with local rebellions.",
             "outcome_popped": "Her claims lead to imprisonment and execution, fueling centuries of royal intrigue in Britain.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "-3"
@@ -274,23 +274,23 @@
             "rating_outcome_popped": "+3"
         },
         {
-            "wish": "I wish King Louis XIV hadn't built Versailles",
+            "wish": "I wish King Louis XIV hadn’t built Versailles",
             "outcome_granted": "France conserves resources, but scattered nobility remains unruly, weakening royal authority early.",
             "outcome_popped": "A splendid court forms at Versailles, projecting power while sowing seeds of resentment and revolution.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "-4"
         },
         {
-            "wish": "I wish Peter the Great hadn't westernized Russia",
+            "wish": "I wish Peter the Great hadn’t westernized Russia",
             "outcome_granted": "Russia stays isolated in old customs, lagging in technology and reforms.",
-            "outcome_popped": "Peter's sweeping changes modernize the empire, though many resent forced European influences.",
+            "outcome_popped": "Peter’s sweeping changes modernize the empire, though many resent forced European influences.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+5"
         },
         {
             "wish": "I wish Catherine the Great had never come to power",
             "outcome_granted": "Her progressive reforms and expansions never happen, keeping Russia more insular.",
-            "outcome_popped": "Catherine's rule strengthens Russia's position in Europe and fosters cultural growth.",
+            "outcome_popped": "Catherine’s rule strengthens Russia’s position in Europe and fosters cultural growth.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+6"
         },
@@ -316,9 +316,9 @@
             "rating_outcome_popped": "+9"
         },
         {
-            "wish": "I wish Benjamin Franklin hadn't experimented with a kite in a storm",
+            "wish": "I wish Benjamin Franklin hadn’t experimented with a kite in a storm",
             "outcome_granted": "Electricity remains poorly understood for decades, delaying key discoveries.",
-            "outcome_popped": "Franklin's curiosity helps pave the way for lightning rods and a broader fascination with electricity.",
+            "outcome_popped": "Franklin’s curiosity helps pave the way for lightning rods and a broader fascination with electricity.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+7"
         },
@@ -344,7 +344,7 @@
             "rating_outcome_popped": "-3"
         },
         {
-            "wish": "I wish Napoleon hadn't declared himself Emperor",
+            "wish": "I wish Napoleon hadn’t declared himself Emperor",
             "outcome_granted": "He stays First Consul, possibly stabilizing France but lacking the grand ambition that reshaped Europe.",
             "outcome_popped": "Emperor Napoleon shakes the continent with wars, eventually meeting his downfall at Waterloo.",
             "rating_outcome_granted": "-1",
@@ -352,29 +352,29 @@
         },
         {
             "wish": "I wish the War of 1812 never started",
-            "outcome_granted": "US-British tensions ease, but Canada's distinct identity develops more slowly.",
-            "outcome_popped": "The conflict cements Canada's path and challenges the young US Navy and pride.",
+            "outcome_granted": "US-British tensions ease, but Canada’s distinct identity develops more slowly.",
+            "outcome_popped": "The conflict cements Canada’s path and challenges the young US Navy and pride.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+3"
         },
         {
-            "wish": "I wish Simón Bolívar hadn't pursued independence",
+            "wish": "I wish Simón Bolívar hadn’t pursued independence",
             "outcome_granted": "Spain retains its colonies longer, delaying the formation of multiple South American nations.",
-            "outcome_popped": "Bolívar's campaigns free Venezuela, Colombia, Ecuador, etc., though ongoing divisions plague the region.",
+            "outcome_popped": "Bolívar’s campaigns free Venezuela, Colombia, Ecuador, etc., though ongoing divisions plague the region.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish Beethoven never went deaf",
             "outcome_granted": "He composes comfortably, but may lack the transcendent depth inspired by his personal struggle.",
-            "outcome_popped": "Deafness propels Beethoven's innovative style, setting new standards in classical music.",
+            "outcome_popped": "Deafness propels Beethoven’s innovative style, setting new standards in classical music.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Lord Byron never wrote his epic poems",
-            "outcome_granted": "Romantic literature loses a cornerstone, potentially muting the era's rebellious tone.",
-            "outcome_popped": "Byron's works scandalize and captivate audiences, fueling the Romantic movement.",
+            "outcome_granted": "Romantic literature loses a cornerstone, potentially muting the era’s rebellious tone.",
+            "outcome_popped": "Byron’s works scandalize and captivate audiences, fueling the Romantic movement.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+5"
         },
@@ -393,23 +393,23 @@
             "rating_outcome_popped": "+5"
         },
         {
-            "wish": "I wish Ada Lovelace hadn't published her notes on Babbage's machine",
+            "wish": "I wish Ada Lovelace hadn’t published her notes on Babbage’s machine",
             "outcome_granted": "Her mathematical insights vanish, delaying the idea of programming by decades.",
-            "outcome_popped": "She's hailed as the first programmer, proving machines can do more than mere arithmetic.",
+            "outcome_popped": "She’s hailed as the first programmer, proving machines can do more than mere arithmetic.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Louis Pasteur never discovered pasteurization",
             "outcome_granted": "Foodborne illnesses flourish, slowing population growth and industrial food safety standards.",
-            "outcome_popped": "Pasteur's method becomes the global norm, saving lives and shaping modern dairy production.",
+            "outcome_popped": "Pasteur’s method becomes the global norm, saving lives and shaping modern dairy production.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+9"
         },
         {
             "wish": "I wish Gregor Mendel never studied pea plants",
             "outcome_granted": "Genetics remains a mystery for longer, delaying advanced biology and breeding techniques.",
-            "outcome_popped": "Mendel's laws form the bedrock of genetics, revolutionizing science and agriculture.",
+            "outcome_popped": "Mendel’s laws form the bedrock of genetics, revolutionizing science and agriculture.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
         },
@@ -423,19 +423,19 @@
         {
             "wish": "I wish Sigmund Freud had kept his theories to himself",
             "outcome_granted": "Psychoanalysis never gains traction, leaving psychology to follow different schools of thought.",
-            "outcome_popped": "Freud's ideas spark debates worldwide, influencing therapy, literature, and pop culture.",
+            "outcome_popped": "Freud’s ideas spark debates worldwide, influencing therapy, literature, and pop culture.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+5"
         },
         {
             "wish": "I wish Karl Marx never published 'The Communist Manifesto'",
             "outcome_granted": "Early socialist movements lack a unifying text, potentially slowing labor revolutions.",
-            "outcome_popped": "Marx's work ignites ideological battles, reshaping global politics and economies.",
+            "outcome_popped": "Marx’s work ignites ideological battles, reshaping global politics and economies.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "-6"
         },
         {
-            "wish": "I wish Friedrich Nietzsche's works were fully understood in his lifetime",
+            "wish": "I wish Friedrich Nietzsche’s works were fully understood in his lifetime",
             "outcome_granted": "He gains immediate recognition, but controversies still arise posthumously, twisting his legacy anyway.",
             "outcome_popped": "Misinterpretation spawns existential and cultural debates long after his death.",
             "rating_outcome_granted": "+1",
@@ -444,14 +444,14 @@
         {
             "wish": "I wish Winston Churchill never took up leadership during WWII",
             "outcome_granted": "Britain struggles under weaker leadership, potentially altering the course of the war.",
-            "outcome_popped": "Churchill's resolve and speeches bolster Allied morale, contributing to eventual victory.",
+            "outcome_popped": "Churchill’s resolve and speeches bolster Allied morale, contributing to eventual victory.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+8"
         },
         {
-            "wish": "I wish Franklin D. Roosevelt hadn't been elected President",
+            "wish": "I wish Franklin D. Roosevelt hadn’t been elected President",
             "outcome_granted": "The New Deal arrives slowly or not at all, prolonging the Great Depression and weakening US resolve.",
-            "outcome_popped": "FDR's administration oversees massive reforms and leads the US through WWII.",
+            "outcome_popped": "FDR’s administration oversees massive reforms and leads the US through WWII.",
             "rating_outcome_granted": "-5",
             "rating_outcome_popped": "+9"
         },
@@ -464,15 +464,15 @@
         },
         {
             "wish": "I wish Charles de Gaulle never formed the Free French forces",
-            "outcome_granted": "France's resistance is weaker during WWII, possibly extending Axis control in Western Europe.",
-            "outcome_popped": "De Gaulle leads the resistance, ensuring France's post-war influence and unity.",
+            "outcome_granted": "France’s resistance is weaker during WWII, possibly extending Axis control in Western Europe.",
+            "outcome_popped": "De Gaulle leads the resistance, ensuring France’s post-war influence and unity.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish Joseph Stalin had stayed a seminary student",
-            "outcome_granted": "He never becomes the Soviet dictator, and the USSR's path might be less brutal or centralized.",
-            "outcome_popped": "Stalin's reign cements a harsh totalitarian regime, shaping global politics during the Cold War.",
+            "outcome_granted": "He never becomes the Soviet dictator, and the USSR’s path might be less brutal or centralized.",
+            "outcome_popped": "Stalin’s reign cements a harsh totalitarian regime, shaping global politics during the Cold War.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "-8"
         },
@@ -486,13 +486,13 @@
         {
             "wish": "I wish Chiang Kai-shek had unified China smoothly",
             "outcome_granted": "A single, stable government forms earlier, reducing internal strife but stifling future reforms.",
-            "outcome_popped": "Prolonged civil conflict leads to the eventual Communist victory and Taiwan's separate rule.",
+            "outcome_popped": "Prolonged civil conflict leads to the eventual Communist victory and Taiwan’s separate rule.",
             "rating_outcome_granted": "+3",
             "rating_outcome_popped": "-4"
         },
         {
             "wish": "I wish Ho Chi Minh had not sought Vietnamese independence",
-            "outcome_granted": "France maintains its colony longer, delaying Vietnam's wars but not preventing them entirely.",
+            "outcome_granted": "France maintains its colony longer, delaying Vietnam’s wars but not preventing them entirely.",
             "outcome_popped": "Decolonization sparks conflict, leading to a divisive war and major global involvement.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "-7"
@@ -500,27 +500,27 @@
         {
             "wish": "I wish Pol Pot never embraced radical ideology",
             "outcome_granted": "Cambodia avoids the Khmer Rouge genocide, sustaining its cultural heritage uninterrupted.",
-            "outcome_popped": "His regime's brutal policies decimate the population and scar the nation's memory.",
+            "outcome_popped": "His regime’s brutal policies decimate the population and scar the nation’s memory.",
             "rating_outcome_granted": "+9",
             "rating_outcome_popped": "-10"
         },
         {
             "wish": "I wish Fidel Castro had stayed a baseball player",
             "outcome_granted": "He never leads the Cuban Revolution, and Cuba remains under Batista or transitions differently.",
-            "outcome_popped": "Castro's revolution defies the US, transforming Cuba into a socialist state for decades.",
+            "outcome_popped": "Castro’s revolution defies the US, transforming Cuba into a socialist state for decades.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "-6"
         },
         {
             "wish": "I wish Che Guevara had stuck to medicine",
             "outcome_granted": "He remains a dedicated doctor, never becoming a global revolutionary icon.",
-            "outcome_popped": "Guevara's role in revolutions cements his legend, though results remain contentious.",
+            "outcome_popped": "Guevara’s role in revolutions cements his legend, though results remain contentious.",
             "rating_outcome_granted": "+3",
             "rating_outcome_popped": "-5"
         },
         {
             "wish": "I wish Eva Perón stayed a stage actress",
-            "outcome_granted": "She never wields political influence, and Argentina's populist movement lacks her iconic image.",
+            "outcome_granted": "She never wields political influence, and Argentina’s populist movement lacks her iconic image.",
             "outcome_popped": "Evita becomes the face of the descamisados, shaping Argentinian politics and myths.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+5"
@@ -535,12 +535,12 @@
         {
             "wish": "I wish Augusto Pinochet had remained a low-ranking officer",
             "outcome_granted": "Chile avoids a violent military coup, potentially developing under a more moderate regime.",
-            "outcome_popped": "Pinochet's dictatorship enforces economic reforms amid severe human rights abuses.",
+            "outcome_popped": "Pinochet’s dictatorship enforces economic reforms amid severe human rights abuses.",
             "rating_outcome_granted": "+4",
             "rating_outcome_popped": "-7"
         },
         {
-            "wish": "I wish Nelson Mandela hadn't been imprisoned",
+            "wish": "I wish Nelson Mandela hadn’t been imprisoned",
             "outcome_granted": "He leads a more immediate political reform, but also faces intense government crackdowns earlier.",
             "outcome_popped": "His long imprisonment makes him a global icon, guiding South Africa to end apartheid.",
             "rating_outcome_granted": "+3",
@@ -549,12 +549,12 @@
         {
             "wish": "I wish Idi Amin stayed in the British colonial army",
             "outcome_granted": "He never seizes power in Uganda, sparing the country his brutal regime.",
-            "outcome_popped": "Amin's dictatorship terrorizes Uganda and garners global condemnation.",
+            "outcome_popped": "Amin’s dictatorship terrorizes Uganda and garners global condemnation.",
             "rating_outcome_granted": "+6",
             "rating_outcome_popped": "-9"
         },
         {
-            "wish": "I wish Kim Il-sung never established North Korea's cult of personality",
+            "wish": "I wish Kim Il-sung never established North Korea’s cult of personality",
             "outcome_granted": "North Korea evolves more like a standard socialist state, possibly limiting dynastic rule.",
             "outcome_popped": "A totalitarian dynasty cements power, isolating the nation from much of the world.",
             "rating_outcome_granted": "+2",
@@ -562,14 +562,14 @@
         },
         {
             "wish": "I wish Indira Gandhi had chosen a purely diplomatic approach",
-            "outcome_granted": "India's conflicts see less direct intervention, but internal political challenges persist longer.",
-            "outcome_popped": "Her firm leadership style shapes modern India's centralized power and controversies.",
+            "outcome_granted": "India’s conflicts see less direct intervention, but internal political challenges persist longer.",
+            "outcome_popped": "Her firm leadership style shapes modern India’s centralized power and controversies.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+4"
         },
         {
             "wish": "I wish Margaret Thatcher had never become Prime Minister",
-            "outcome_granted": "Britain's economy follows a different path, with less emphasis on privatization and deregulation.",
+            "outcome_granted": "Britain’s economy follows a different path, with less emphasis on privatization and deregulation.",
             "outcome_popped": "The 'Iron Lady' redefines British policy, leaving a contentious legacy in economy and society.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "-3"
@@ -577,14 +577,14 @@
         {
             "wish": "I wish Mikhail Gorbachev never introduced glasnost and perestroika",
             "outcome_granted": "The USSR lingers longer under repressive structures, delaying its collapse.",
-            "outcome_popped": "Reforms spark openness, hastening the Soviet Union's end and reshaping world politics.",
+            "outcome_popped": "Reforms spark openness, hastening the Soviet Union’s end and reshaping world politics.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+7"
         },
         {
             "wish": "I wish Boris Yeltsin never took the presidency after the USSR fell",
             "outcome_granted": "Russia transitions differently, possibly avoiding the chaotic privatization of the 1990s.",
-            "outcome_popped": "Yeltsin's leadership defines post-Soviet Russia, for better or worse, and sets the stage for future leaders.",
+            "outcome_popped": "Yeltsin’s leadership defines post-Soviet Russia, for better or worse, and sets the stage for future leaders.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "-2"
         },
@@ -603,15 +603,15 @@
             "rating_outcome_popped": "+9"
         },
         {
-            "wish": "I wish Susan B. Anthony had never fought for women's suffrage",
-            "outcome_granted": "The suffrage movement slows, delaying women's rights in the United States.",
+            "wish": "I wish Susan B. Anthony had never fought for women’s suffrage",
+            "outcome_granted": "The suffrage movement slows, delaying women’s rights in the United States.",
             "outcome_popped": "Her dedication drives the 19th Amendment, transforming American democracy.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Sojourner Truth had stayed silent",
-            "outcome_granted": "Fewer voices advocate against slavery and for women's rights, dulling social progress.",
+            "outcome_granted": "Fewer voices advocate against slavery and for women’s rights, dulling social progress.",
             "outcome_popped": "Her powerful speeches inspire many, furthering abolition and early feminism.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+7"
@@ -626,40 +626,40 @@
         {
             "wish": "I wish Martin Luther King Jr. had not led the civil rights movement",
             "outcome_granted": "Segregation persists, progress fragments among smaller local leaders, delaying nationwide reforms.",
-            "outcome_popped": "His leadership and nonviolent protest strategies reshape America's social and political landscape.",
+            "outcome_popped": "His leadership and nonviolent protest strategies reshape America’s social and political landscape.",
             "rating_outcome_granted": "-7",
             "rating_outcome_popped": "+10"
         },
         {
-            "wish": "I wish Malala Yousafzai had never spoken about girls' education",
+            "wish": "I wish Malala Yousafzai had never spoken about girls’ education",
             "outcome_granted": "She remains unknown, and fewer global efforts push for educational rights in conflict regions.",
-            "outcome_popped": "Her activism inspires millions and places a spotlight on women's education worldwide.",
+            "outcome_popped": "Her activism inspires millions and places a spotlight on women’s education worldwide.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Helen Keller had never pursued activism",
             "outcome_granted": "Fewer breakthroughs occur in disability rights, and many remain marginalized.",
-            "outcome_popped": "Her advocacy redefines the world's view on disability, inspiring broader inclusion.",
+            "outcome_popped": "Her advocacy redefines the world’s view on disability, inspiring broader inclusion.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+7"
         },
         {
             "wish": "I wish Marie Stopes never opened her family planning clinics",
             "outcome_granted": "Birth control and women's reproductive education spread more slowly, prolonging misconceptions.",
-            "outcome_popped": "Her clinics pioneer modern family planning, influencing global women's health movements.",
+            "outcome_popped": "Her clinics pioneer modern family planning, influencing global women’s health movements.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+6"
         },
         {
-            "wish": "I wish Emmeline Pankhurst had not founded the Women's Social and Political Union",
-            "outcome_granted": "Britain's women's suffrage movement loses momentum, delaying key electoral reforms.",
+            "wish": "I wish Emmeline Pankhurst had not founded the Women’s Social and Political Union",
+            "outcome_granted": "Britain’s women’s suffrage movement loses momentum, delaying key electoral reforms.",
             "outcome_popped": "Her militant tactics draw attention, hastening votes for women and changing British politics.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+8"
         },
         {
-            "wish": "I wish Florence Nightingale hadn't reformed nursing",
+            "wish": "I wish Florence Nightingale hadn’t reformed nursing",
             "outcome_granted": "Hospitals remain disorganized, infection rates stay high, and modern nursing takes longer to develop.",
             "outcome_popped": "Her reforms and statistical analysis revolutionize patient care, saving countless lives.",
             "rating_outcome_granted": "-4",
@@ -673,9 +673,9 @@
             "rating_outcome_popped": "+8"
         },
         {
-            "wish": "I wish Harriet Beecher Stowe had not written 'Uncle Tom's Cabin'",
+            "wish": "I wish Harriet Beecher Stowe had not written 'Uncle Tom’s Cabin'",
             "outcome_granted": "Abolitionist sentiment grows more slowly, possibly prolonging slavery in the US.",
-            "outcome_popped": "Her novel intensifies national debate, contributing to the Civil War's moral impetus.",
+            "outcome_popped": "Her novel intensifies national debate, contributing to the Civil War’s moral impetus.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+7"
         },
@@ -688,36 +688,36 @@
         },
         {
             "wish": "I wish Elvis Presley had stayed a truck driver",
-            "outcome_granted": "Rock 'n' roll lacks its King, possibly delaying the genre's mainstream popularity.",
+            "outcome_granted": "Rock 'n' roll lacks its King, possibly delaying the genre’s mainstream popularity.",
             "outcome_popped": "Elvis becomes a cultural icon, reshaping music and challenging social norms.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
         },
         {
-            "wish": "I wish Aretha Franklin had never sung in her father's church",
-            "outcome_granted": "She never hones her gospel-rooted voice, and the ‘Queen of Soul' title remains vacant.",
+            "wish": "I wish Aretha Franklin had never sung in her father’s church",
+            "outcome_granted": "She never hones her gospel-rooted voice, and the ‘Queen of Soul’ title remains vacant.",
             "outcome_popped": "Her church beginnings launch a legendary career, defining soul music.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+7"
         },
         {
-            "wish": "I wish Johnny Cash hadn't performed at Folsom Prison",
+            "wish": "I wish Johnny Cash hadn’t performed at Folsom Prison",
             "outcome_granted": "His prison concerts never redefine his public image, and inmate reform awareness stays lower.",
-            "outcome_popped": "Cash's performance revitalizes his career and highlights the humanity of prisoners.",
+            "outcome_popped": "Cash’s performance revitalizes his career and highlights the humanity of prisoners.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish Bob Marley never promoted reggae worldwide",
             "outcome_granted": "Reggae remains niche in Jamaica, and global peace movements lose a major musical catalyst.",
-            "outcome_popped": "Marley's message of unity spreads across continents, influencing countless artists and activists.",
+            "outcome_popped": "Marley’s message of unity spreads across continents, influencing countless artists and activists.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+7"
         },
         {
             "wish": "I wish Prince had pursued jazz instead of pop",
             "outcome_granted": "He becomes an acclaimed musician in smaller circles, never achieving global pop stardom.",
-            "outcome_popped": "Prince's innovations rock the pop world, leaving a flamboyant, genre-defying legacy.",
+            "outcome_popped": "Prince’s innovations rock the pop world, leaving a flamboyant, genre-defying legacy.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+5"
         },
@@ -731,21 +731,21 @@
         {
             "wish": "I wish Freddie Mercury had stayed a pianist in a small club",
             "outcome_granted": "Queen never forms, and rock opera influences fade, altering stadium anthems forever.",
-            "outcome_popped": "Mercury's unparalleled showmanship and voice define an era of rock music.",
+            "outcome_popped": "Mercury’s unparalleled showmanship and voice define an era of rock music.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+9"
         },
         {
             "wish": "I wish Madonna never pursued a music career",
-            "outcome_granted": "She never becomes the ‘Queen of Pop,' leaving female pop stardom less boundary-pushing in the 80s.",
+            "outcome_granted": "She never becomes the ‘Queen of Pop,’ leaving female pop stardom less boundary-pushing in the 80s.",
             "outcome_popped": "Her provocative style shapes music videos, fashion, and gender norms worldwide.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+5"
         },
         {
             "wish": "I wish Michael Jackson had remained in the Jackson 5 forever",
-            "outcome_granted": "He never emerges as the King of Pop, and the group's teenage phase fades quietly.",
-            "outcome_popped": "Jackson's solo career redefines global pop, though not without personal and public controversies.",
+            "outcome_granted": "He never emerges as the King of Pop, and the group’s teenage phase fades quietly.",
+            "outcome_popped": "Jackson’s solo career redefines global pop, though not without personal and public controversies.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
         },
@@ -808,42 +808,42 @@
         {
             "wish": "I wish Marlon Brando had quit acting after 'A Streetcar Named Desire'",
             "outcome_granted": "He remains known for a single performance, missing out on 'The Godfather' and other classics.",
-            "outcome_popped": "Brando's method acting revolutionizes Hollywood, influencing generations of actors.",
+            "outcome_popped": "Brando’s method acting revolutionizes Hollywood, influencing generations of actors.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Clint Eastwood stuck to small TV roles",
             "outcome_granted": "He never becomes the face of Spaghetti Westerns or a celebrated director.",
-            "outcome_popped": "Eastwood's gritty style shapes Western and action genres, later earning him directing accolades.",
+            "outcome_popped": "Eastwood’s gritty style shapes Western and action genres, later earning him directing accolades.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish Bruce Lee had remained in Hong Kong studios only",
             "outcome_granted": "His martial arts philosophy stays regional, influencing fewer global audiences.",
-            "outcome_popped": "Lee's Hollywood breakthrough revolutionizes action cinema and sparks global interest in Kung Fu.",
+            "outcome_popped": "Lee’s Hollywood breakthrough revolutionizes action cinema and sparks global interest in Kung Fu.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Jackie Chan never attempted comedic martial arts",
             "outcome_granted": "He becomes a serious stuntman, missing the unique blend of humor and action that defines his brand.",
-            "outcome_popped": "Chan's innovative style entertains worldwide, pushing the boundaries of stunts and slapstick.",
+            "outcome_popped": "Chan’s innovative style entertains worldwide, pushing the boundaries of stunts and slapstick.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+7"
         },
         {
             "wish": "I wish Akira Kurosawa stuck to painting",
             "outcome_granted": "Cinema never gains classics like 'Seven Samurai,' influencing Westerns and film style globally.",
-            "outcome_popped": "Kurosawa's films inspire directors worldwide, bridging Eastern and Western storytelling.",
+            "outcome_popped": "Kurosawa’s films inspire directors worldwide, bridging Eastern and Western storytelling.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+9"
         },
         {
-            "wish": "I wish Hayao Miyazaki hadn't created Studio Ghibli",
+            "wish": "I wish Hayao Miyazaki hadn’t created Studio Ghibli",
             "outcome_granted": "Anime lacks some of its most beloved films, and environmental themes find fewer outlets.",
-            "outcome_popped": "Miyazaki's storytelling defines a new era of animation, enchanting global audiences.",
+            "outcome_popped": "Miyazaki’s storytelling defines a new era of animation, enchanting global audiences.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
         },
@@ -856,8 +856,8 @@
         },
         {
             "wish": "I wish Steven Spielberg had stayed a TV director",
-            "outcome_granted": "Iconic films like 'Jaws' and 'E.T.' are never made, shifting Hollywood's blockbuster era significantly.",
-            "outcome_popped": "Spielberg's innovative approach redefines commercial cinema, inspiring countless filmmakers.",
+            "outcome_granted": "Iconic films like 'Jaws' and 'E.T.' are never made, shifting Hollywood’s blockbuster era significantly.",
+            "outcome_popped": "Spielberg’s innovative approach redefines commercial cinema, inspiring countless filmmakers.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+7"
         },
@@ -870,7 +870,7 @@
         },
         {
             "wish": "I wish J.K. Rowling had not penned 'Harry Potter'",
-            "outcome_granted": "A generation grows up without Hogwarts, and the fantasy genre's renaissance shifts to other works.",
+            "outcome_granted": "A generation grows up without Hogwarts, and the fantasy genre’s renaissance shifts to other works.",
             "outcome_popped": "Her series sparks huge enthusiasm for reading, transforming young adult literature.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
@@ -878,7 +878,7 @@
         {
             "wish": "I wish J.R.R. Tolkien had kept Middle-earth to himself",
             "outcome_granted": "Modern fantasy lacks its epic foundation, possibly shifting how people approach world-building.",
-            "outcome_popped": "Tolkien's legendarium establishes a template for fantasy writing, inspiring countless authors.",
+            "outcome_popped": "Tolkien’s legendarium establishes a template for fantasy writing, inspiring countless authors.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+10"
         },
@@ -898,49 +898,49 @@
         },
         {
             "wish": "I wish Arthur Conan Doyle never created Sherlock Holmes",
-            "outcome_granted": "Detective fiction evolves differently, missing the iconic detective's methods.",
-            "outcome_popped": "Holmes's intellect captivates readers, influencing countless future characters and investigations.",
+            "outcome_granted": "Detective fiction evolves differently, missing the iconic detective’s methods.",
+            "outcome_popped": "Holmes’s intellect captivates readers, influencing countless future characters and investigations.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Edgar Allan Poe had focused on journalism",
             "outcome_granted": "Gothic horror and detective genres lose a founding figure, altering literary evolution.",
-            "outcome_popped": "Poe's tales shape dark fiction and inspire a legion of horror enthusiasts.",
+            "outcome_popped": "Poe’s tales shape dark fiction and inspire a legion of horror enthusiasts.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+7"
         },
         {
             "wish": "I wish Isaac Asimov never wrote his sci-fi novels",
             "outcome_granted": "Robotics laws and sprawling futuristic epics appear later or differently, stalling certain inspirations.",
-            "outcome_popped": "Asimov's Foundation and robot series guide scientific imagination and ethical debates.",
+            "outcome_popped": "Asimov’s Foundation and robot series guide scientific imagination and ethical debates.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+8"
         },
         {
-            "wish": "I wish Philip K. Dick's stories remained unpublished",
+            "wish": "I wish Philip K. Dick’s stories remained unpublished",
             "outcome_granted": "Cyberpunk themes and reality-questioning plots evolve more slowly in sci-fi.",
             "outcome_popped": "His works fuel philosophical film adaptations like 'Blade Runner,' shaping future storytelling.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+7"
         },
         {
-            "wish": "I wish Ray Bradbury hadn't written 'Fahrenheit 451'",
-            "outcome_granted": "Dystopian literature lacks a major warning about censorship, shifting the genre's development.",
+            "wish": "I wish Ray Bradbury hadn’t written 'Fahrenheit 451'",
+            "outcome_granted": "Dystopian literature lacks a major warning about censorship, shifting the genre’s development.",
             "outcome_popped": "His novel becomes a staple cautionary tale, influencing debates on free expression.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish Mary Wollstonecraft never wrote 'A Vindication of the Rights of Woman'",
-            "outcome_granted": "Early feminist thought lacks a seminal text, slowing the push for women's equality in Europe.",
-            "outcome_popped": "Her writing sparks debates on education and women's rights, planting seeds for future reforms.",
+            "outcome_granted": "Early feminist thought lacks a seminal text, slowing the push for women’s equality in Europe.",
+            "outcome_popped": "Her writing sparks debates on education and women’s rights, planting seeds for future reforms.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish Simone de Beauvoir never published 'The Second Sex'",
-            "outcome_granted": "Existential feminism remains less developed, stalling deeper analyses of women's liberation.",
+            "outcome_granted": "Existential feminism remains less developed, stalling deeper analyses of women’s liberation.",
             "outcome_popped": "Her work influences feminist theory worldwide, challenging societal norms.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+7"
@@ -955,7 +955,7 @@
         {
             "wish": "I wish an unknown scribe in ancient Sumer never invented cuneiform",
             "outcome_granted": "Writing develops later, delaying record-keeping and early civilization progress.",
-            "outcome_popped": "Cuneiform births history's first written records, fueling civilization's expansion.",
+            "outcome_popped": "Cuneiform births history’s first written records, fueling civilization’s expansion.",
             "rating_outcome_granted": "-4",
             "rating_outcome_popped": "+8"
         },
@@ -1024,15 +1024,15 @@
         },
         {
             "wish": "I wish a random Norse farmer had introduced sweet potatoes early",
-            "outcome_granted": "Norse cuisine adapts, but the climate can't sustain them, leading to confusion and minimal impact.",
+            "outcome_granted": "Norse cuisine adapts, but the climate can’t sustain them, leading to confusion and minimal impact.",
             "outcome_popped": "Sweet potatoes remain a New World staple until global explorations connect the continents.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+2"
         },
         {
-            "wish": "I wish a Celtic bard never performed at a chieftain's feast",
+            "wish": "I wish a Celtic bard never performed at a chieftain’s feast",
             "outcome_granted": "Local legends spread less, missing a chance to unite clans under shared stories.",
-            "outcome_popped": "The bard's performance cements cultural identity, passing myths down generations.",
+            "outcome_popped": "The bard’s performance cements cultural identity, passing myths down generations.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+3"
         },
@@ -1073,7 +1073,7 @@
         },
         {
             "wish": "I wish an unknown Greek philosopher had proven heliocentrism early",
-            "outcome_granted": "Earth's movement around the sun is known centuries before Copernicus, possibly clashing with dominant beliefs harshly.",
+            "outcome_granted": "Earth’s movement around the sun is known centuries before Copernicus, possibly clashing with dominant beliefs harshly.",
             "outcome_popped": "Geocentrism persists, eventually yielding to Copernican and Galilean findings.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+5"
@@ -1087,7 +1087,7 @@
         },
         {
             "wish": "I wish a poor Egyptian peasant had discovered embalming secrets",
-            "outcome_granted": "They share it widely, demystifying mummification and reducing priests' influence.",
+            "outcome_granted": "They share it widely, demystifying mummification and reducing priests’ influence.",
             "outcome_popped": "Priesthood and scribes maintain control, keeping the secrets tied to religion and royalty.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+2"
@@ -1137,7 +1137,7 @@
         {
             "wish": "I wish a humble Japanese fisherman had invented sushi centuries earlier",
             "outcome_granted": "Sushi culture spreads globally long before modern refrigeration, leading to interesting preservations methods.",
-            "outcome_popped": "Sushi's popularity grows in modern times, eventually becoming an international cuisine phenomenon.",
+            "outcome_popped": "Sushi’s popularity grows in modern times, eventually becoming an international cuisine phenomenon.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+4"
         },
@@ -1172,7 +1172,7 @@
         {
             "wish": "I wish an unknown nurse in the Crimean War had discovered antibiotics",
             "outcome_granted": "Warfare injuries see fewer deaths, but overuse leads to early antibiotic resistance concerns.",
-            "outcome_popped": "Such discoveries wait for the 20th century (Fleming), fueling modern medicine's revolution.",
+            "outcome_popped": "Such discoveries wait for the 20th century (Fleming), fueling modern medicine’s revolution.",
             "rating_outcome_granted": "+5",
             "rating_outcome_popped": "+8"
         },
@@ -1191,22 +1191,22 @@
             "rating_outcome_popped": "+3"
         },
         {
-            "wish": "I wish a Chola Empire sailor had discovered Madagascar's resources first",
+            "wish": "I wish a Chola Empire sailor had discovered Madagascar’s resources first",
             "outcome_granted": "South Indian maritime trade expands earlier to Madagascar, forging unique cultural blends.",
-            "outcome_popped": "Madagascar's settlers come from Southeast Asia and Africa, eventually meeting various traders.",
+            "outcome_popped": "Madagascar’s settlers come from Southeast Asia and Africa, eventually meeting various traders.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+4"
         },
         {
             "wish": "I wish a Song Dynasty chemist had perfected gunpowder weapons widely",
-            "outcome_granted": "China's dominance in warfare intensifies, but the arms race escalates even earlier globally.",
+            "outcome_granted": "China’s dominance in warfare intensifies, but the arms race escalates even earlier globally.",
             "outcome_popped": "Gunpowder spreads gradually, enabling later conflicts that shape global power balances.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+5"
         },
         {
             "wish": "I wish a 17th-century Qing official had abolished foot binding unilaterally",
-            "outcome_granted": "Women's mobility improves sooner, but conservative resistance sparks internal upheaval.",
+            "outcome_granted": "Women’s mobility improves sooner, but conservative resistance sparks internal upheaval.",
             "outcome_popped": "Foot binding persists for centuries, symbolizing tradition and oppression before eventual bans.",
             "rating_outcome_granted": "+4",
             "rating_outcome_popped": "-3"
@@ -1233,7 +1233,7 @@
             "rating_outcome_popped": "+3"
         },
         {
-            "wish": "I wish a random Amazonian tribe had discovered rubber's properties centuries earlier",
+            "wish": "I wish a random Amazonian tribe had discovered rubber’s properties centuries earlier",
             "outcome_granted": "Rubber-based industries form in pre-Columbian times, but deforestation escalates early.",
             "outcome_popped": "Rubber becomes a colonial resource, fueling the Industrial Revolution in the 19th century.",
             "rating_outcome_granted": "+3",
@@ -1277,7 +1277,7 @@
         {
             "wish": "I wish a timid medieval squire had revealed a gunpowder stash to the public",
             "outcome_granted": "Feudal warfare transforms abruptly, knights become obsolete faster, leading to chaotic power grabs.",
-            "outcome_popped": "Gunpowder's spread is gradual, giving militaries time to adapt in measured increments.",
+            "outcome_popped": "Gunpowder’s spread is gradual, giving militaries time to adapt in measured increments.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+4"
         },
@@ -1325,7 +1325,7 @@
         },
         {
             "wish": "I wish a random Napoleonic drummer boy had written an anti-war anthem",
-            "outcome_granted": "Public sentiment might shift, but Napoleon's ambitions proceed regardless, labeling the boy a traitor.",
+            "outcome_granted": "Public sentiment might shift, but Napoleon’s ambitions proceed regardless, labeling the boy a traitor.",
             "outcome_popped": "No widespread anthem emerges, leaving Europe to learn from repeated wars organically.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+2"
@@ -1333,7 +1333,7 @@
         {
             "wish": "I wish an unknown Carthaginian captain had defeated Rome at sea",
             "outcome_granted": "Carthage wins a key naval victory, potentially reversing outcomes of the Punic Wars.",
-            "outcome_popped": "Rome's dominance in the Mediterranean paves the way for its empire.",
+            "outcome_popped": "Rome’s dominance in the Mediterranean paves the way for its empire.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+5"
         },
@@ -1354,13 +1354,13 @@
         {
             "wish": "I wish a bored Persian merchant invented the printing press pre-Gutenberg",
             "outcome_granted": "Printed books spread across the Islamic world faster, possibly altering the flow of knowledge to Europe.",
-            "outcome_popped": "Gutenberg's invention catalyzes European reformation and scientific advancement.",
+            "outcome_popped": "Gutenberg’s invention catalyzes European reformation and scientific advancement.",
             "rating_outcome_granted": "+3",
             "rating_outcome_popped": "+8"
         },
         {
             "wish": "I wish a lost Egyptian scribe had built a papyrus empire centuries earlier",
-            "outcome_granted": "International trade in papyrus booms, fueling earlier literacy but straining the Nile's resources.",
+            "outcome_granted": "International trade in papyrus booms, fueling earlier literacy but straining the Nile’s resources.",
             "outcome_popped": "Papyrus remains a significant export, but widespread global use awaits cheaper alternatives later.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+3"
@@ -1395,7 +1395,7 @@
         },
         {
             "wish": "I wish a bored Roman Senator had discovered chili peppers in ancient times",
-            "outcome_granted": "Spicy cuisine spreads in Rome, but trade routes shift early, possibly overshadowing black pepper's role.",
+            "outcome_granted": "Spicy cuisine spreads in Rome, but trade routes shift early, possibly overshadowing black pepper’s role.",
             "outcome_popped": "Europe waits until after the Columbian exchange to embrace chili peppers.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+3"
@@ -1416,7 +1416,7 @@
         },
         {
             "wish": "I wish an obscure Ming Dynasty official had led a large-scale expedition to Australia",
-            "outcome_granted": "Chinese presence influences Australia's history centuries before Europeans arrive.",
+            "outcome_granted": "Chinese presence influences Australia’s history centuries before Europeans arrive.",
             "outcome_popped": "Ming voyages remain focused on Southeast Asia and the Indian Ocean, leaving Australia for later explorers.",
             "rating_outcome_granted": "+3",
             "rating_outcome_popped": "+5"
@@ -1429,15 +1429,15 @@
             "rating_outcome_popped": "+9"
         },
         {
-            "wish": "I wish a random Moroccan traveler had fully mapped the Sahara's trade routes",
+            "wish": "I wish a random Moroccan traveler had fully mapped the Sahara’s trade routes",
             "outcome_granted": "Commerce expands, but desert control intensifies political rivalries over salt and gold.",
             "outcome_popped": "Trade caravans persist with partial routes, shaping West African kingdoms gradually.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+3"
         },
         {
-            "wish": "I wish a French blacksmith's apprentice had discovered the steam engine pre-1700",
-            "outcome_granted": "An earlier industrial revolution disrupts Europe's balance of power, possibly igniting wars sooner.",
+            "wish": "I wish a French blacksmith’s apprentice had discovered the steam engine pre-1700",
+            "outcome_granted": "An earlier industrial revolution disrupts Europe’s balance of power, possibly igniting wars sooner.",
             "outcome_popped": "Steam power arrives in the 18th century, fueling a measured surge in industry.",
             "rating_outcome_granted": "-3",
             "rating_outcome_popped": "+4"
@@ -1472,15 +1472,15 @@
         },
         {
             "wish": "I wish a lone Tibetan scholar had proven the Earth orbits the sun in 900 CE",
-            "outcome_granted": "Tibet becomes a brief epicenter of astronomy, though global acceptance lags behind the church's doctrines.",
-            "outcome_popped": "Heliocentrism awaits Copernicus, Galileo, and Kepler's breakthroughs in early modern Europe.",
+            "outcome_granted": "Tibet becomes a brief epicenter of astronomy, though global acceptance lags behind the church’s doctrines.",
+            "outcome_popped": "Heliocentrism awaits Copernicus, Galileo, and Kepler’s breakthroughs in early modern Europe.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish a random Gaelic chieftain had declared independence from Rome in 50 CE",
             "outcome_granted": "Rome invests more troops in a far-flung Gaelic region, possibly straining resources earlier.",
-            "outcome_popped": "Roman expansion continues steadily, with Gaul eventually integrated into the empire's structure.",
+            "outcome_popped": "Roman expansion continues steadily, with Gaul eventually integrated into the empire’s structure.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+4"
         },
@@ -1493,7 +1493,7 @@
         },
         {
             "wish": "I wish a bored medieval mathematician had invented advanced calculus",
-            "outcome_granted": "Complex mathematics enters the Middle Ages, outpacing the era's capacity to utilize it effectively.",
+            "outcome_granted": "Complex mathematics enters the Middle Ages, outpacing the era’s capacity to utilize it effectively.",
             "outcome_popped": "Calculus surfaces with Newton and Leibniz, fueling modern science and engineering.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+8"
@@ -1501,21 +1501,21 @@
         {
             "wish": "I wish a random Renaissance herbalist had discovered penicillin",
             "outcome_granted": "Infections drop drastically, but incomplete medical theory leads to haphazard antibiotic use.",
-            "outcome_popped": "Penicillin waits until Fleming's time, revolutionizing medicine when the world is ready.",
+            "outcome_popped": "Penicillin waits until Fleming’s time, revolutionizing medicine when the world is ready.",
             "rating_outcome_granted": "+4",
             "rating_outcome_popped": "+9"
         },
         {
             "wish": "I wish a shy Moorish librarian had compiled a universal encyclopedia",
             "outcome_granted": "Knowledge centralizes in Al-Andalus, influencing Europe's scholars early, but the library might be lost in wars.",
-            "outcome_popped": "Learning remains scattered, culminating in later encyclopedic efforts like Diderot's.",
+            "outcome_popped": "Learning remains scattered, culminating in later encyclopedic efforts like Diderot’s.",
             "rating_outcome_granted": "+3",
             "rating_outcome_popped": "+5"
         },
         {
             "wish": "I wish a small Teutonic knight order never battled pagan Baltic tribes",
             "outcome_granted": "Christianization of the Baltics slows, leaving them more culturally independent for longer.",
-            "outcome_popped": "The order's wars unify or oppress Baltic lands, shaping local identities with a Christian overlay.",
+            "outcome_popped": "The order’s wars unify or oppress Baltic lands, shaping local identities with a Christian overlay.",
             "rating_outcome_granted": "-1",
             "rating_outcome_popped": "+3"
         },
@@ -1536,12 +1536,12 @@
         {
             "wish": "I wish an ambitious Moorish cartographer had accurately mapped West Africa in 900 CE",
             "outcome_granted": "Trade with Ghana and Mali intensifies, forging stronger Islamic and Saharan connections early.",
-            "outcome_popped": "Explorers and traders piece together Africa's geography over centuries, shaping gradual contact.",
+            "outcome_popped": "Explorers and traders piece together Africa’s geography over centuries, shaping gradual contact.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+4"
         },
         {
-            "wish": "I wish an intrepid Amazonian warrior had established a formal queen's dynasty",
+            "wish": "I wish an intrepid Amazonian warrior had established a formal queen’s dynasty",
             "outcome_granted": "A matriarchal tribe garners legendary status, possibly resisting European incursions differently.",
             "outcome_popped": "Amazon region remains fragmented among tribes, eventually succumbing to colonization.",
             "rating_outcome_granted": "+1",
@@ -1564,7 +1564,7 @@
         {
             "wish": "I wish a bored Venetian gondolier discovered a sea route to Asia first",
             "outcome_granted": "He stumbles into maritime fame, overshadowing Portuguese and Spanish explorers, but Venice tries to monopolize trade.",
-            "outcome_popped": "Portugal leads the route-finding era, reshaping global trade and overshadowing Venice's older routes.",
+            "outcome_popped": "Portugal leads the route-finding era, reshaping global trade and overshadowing Venice’s older routes.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+4"
         },
@@ -1585,7 +1585,7 @@
         {
             "wish": "I wish a traveling Indian dancer had introduced yoga to medieval Europe",
             "outcome_granted": "Some monastic orders adopt yoga-like disciplines, but suspicion from Church authorities arises.",
-            "outcome_popped": "Yoga's global popularity unfolds centuries later, shaping modern wellness movements.",
+            "outcome_popped": "Yoga’s global popularity unfolds centuries later, shaping modern wellness movements.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+3"
         },
@@ -1599,14 +1599,14 @@
         {
             "wish": "I wish a bored Victorian telegraph operator had invented the telephone first",
             "outcome_granted": "He patents it, overshadowing Bell, but corporate wrangling still slows widespread adoption.",
-            "outcome_popped": "Bell's telephone gains traction, revolutionizing communication step by step.",
+            "outcome_popped": "Bell’s telephone gains traction, revolutionizing communication step by step.",
             "rating_outcome_granted": "+2",
             "rating_outcome_popped": "+5"
         },
         {
             "wish": "I wish an unknown French cavalryman had harnessed flight suits in 1700",
             "outcome_granted": "Crude gliders appear, but frequent crashes deter broader interest, shifting flight research unpredictably.",
-            "outcome_popped": "Flight remains an 18th-19th-century curiosity with balloons, culminating in the Wright brothers' success.",
+            "outcome_popped": "Flight remains an 18th-19th-century curiosity with balloons, culminating in the Wright brothers’ success.",
             "rating_outcome_granted": "-2",
             "rating_outcome_popped": "+4"
         },
@@ -1627,14 +1627,14 @@
         {
             "wish": "I wish an unnoticed Polish mathematician had solved major theorems before Gauss",
             "outcome_granted": "Breakthroughs accelerate math progress, overshadowing Gauss but possibly sowing confusion without peer acceptance.",
-            "outcome_popped": "Gauss's recognized genius organizes the field, shaping modern mathematics systematically.",
+            "outcome_popped": "Gauss’s recognized genius organizes the field, shaping modern mathematics systematically.",
             "rating_outcome_granted": "+1",
             "rating_outcome_popped": "+6"
         },
         {
             "wish": "I wish a lonely Australian rancher had invented wireless communication ahead of Marconi",
             "outcome_granted": "Radio emerges in the Outback, but global recognition is slow, limiting immediate uptake.",
-            "outcome_popped": "Marconi's success influences maritime safety and mass communication worldwide.",
+            "outcome_popped": "Marconi’s success influences maritime safety and mass communication worldwide.",
             "rating_outcome_granted": "0",
             "rating_outcome_popped": "+5"
         },
@@ -1655,7 +1655,7 @@
         {
             "wish": "I wish an isolated Scottish crofter had discovered penicillin a century before Fleming",
             "outcome_granted": "Antibiotics appear early, but misuse might hamper effective development, risking resistant strains faster.",
-            "outcome_popped": "Fleming's 20th-century discovery revolutionizes healthcare in a more prepared scientific environment.",
+            "outcome_popped": "Fleming’s 20th-century discovery revolutionizes healthcare in a more prepared scientific environment.",
             "rating_outcome_granted": "+4",
             "rating_outcome_popped": "+9"
         },

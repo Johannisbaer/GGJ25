@@ -1,2 +1,13 @@
 res://planet_and_clouds.tscn
 res://StandardAlbedo/new_standard_material_3d.tres
+res://Scripts/bubble_label.gd
+res://Scripts/bubble_spawn.gd
+res://Scripts/bubble_mesh_3d.gd
+res://Scripts/bubble_spawner.gd
+res://Bubble.tscn
+res://Scripts/text_manager.gd
+res://Scripts/collision_shape_3d.gd
+res://Scripts/bubble_main.gd
+res://Scripts/Global.gd
+res://label_3d.gd
+res://Scripts/clouds.gd

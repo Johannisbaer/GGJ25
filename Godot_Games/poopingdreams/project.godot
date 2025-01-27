@@ -14,3 +14,7 @@ config/name="PoopingDreams"
 run/main_scene="res://planet_and_clouds.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://Scripts/Global.gd"
