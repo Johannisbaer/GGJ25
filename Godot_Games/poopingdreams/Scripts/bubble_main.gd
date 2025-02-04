@@ -3,7 +3,8 @@ extends Node3D  # Main node of the Bubble
 @export var travel_speed: float = 0.01
 @export var horizontal_speed: float = 0.01
 @export var z_speed: float = 0.01  # Speed for Z-axis movement
-@export var lifespan: float = 50.0
+@export var lifespan: float = 70.0
+@export var slowdown_percentage: float = 90  # A percentage to slow down the velocity
 
 var direction: Vector3
 var time_alive: float = 0.0
@@ -56,23 +57,30 @@ func adjust_label_to_fit() -> void:
 func _ready() -> void:
 	# Call the method to fetch data and initialize the bubble
 	initialize_from_global()
-	
-	# Randomize direction with a Z-axis component moving away from the camera
-	var max_angle = PI / 2
+
+	# Randomize direction along x-axis from 0 to 180 degrees
+	var max_angle = PI  # Represents 180 degrees
 	var min_angle_diff = deg_to_rad(30)
 	var random_angle = 0.0
 
 	while true:
-		random_angle = randf_range(-max_angle, max_angle)
+		random_angle = randf_range(0, max_angle)  # Range from 0 to PI radians
 		if abs(random_angle - last_angle) >= min_angle_diff:
 			break
 	last_angle = random_angle
 
+	# Adjusting to consider an x-axis range of 0 to 180 degrees
 	var x = cos(random_angle) * horizontal_speed
-	var y = max(sin(random_angle), 0) * travel_speed
-	var z = z_speed  # Move away from the camera
+	var z = sin(random_angle) * z_speed  # Use sin for the z component now
+	var y = travel_speed     # y can be constant or another calculation, depending on desired behavior
 
 	direction = Vector3(x, y, z).normalized()
+	set_process(true)
+	
+	# Apply the slowdown percentage
+	var slowdown_factor = 1.0 - (slowdown_percentage / 100.0)
+	direction *= slowdown_factor
+	
 	set_process(true)
 
 func _process(delta: float) -> void:

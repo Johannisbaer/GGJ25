@@ -1,6 +1,6 @@
 extends Node3D
 
-@export var bubble_scene: PackedScene = preload("res://Bubble.tscn")  # Reference to your Bubble scene
+@export var bubble_scene: PackedScene = preload("res://scenes/Bubble.tscn")  # Reference to your Bubble scene
 @export var spawn_position: Vector3 = Vector3(0, 1, 0)  # Default spawn position
 
 func _ready() -> void:

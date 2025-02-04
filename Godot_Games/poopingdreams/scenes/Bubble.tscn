@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://5hnx67laicwv"]
 
-[ext_resource type="Script" path="res://Scripts/bubble_main.gd" id="1_6l0o2"]
-[ext_resource type="Script" path="res://label_3d.gd" id="2_bh1h6"]
+[ext_resource type="Script" path="res://Scripts/bubble_main.gd" id="1_j7l3l"]
+[ext_resource type="Script" path="res://label_3d.gd" id="2_qww2s"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ahfeg"]
 albedo_color = Color(0.765755, 0.89835, 0.960166, 1)
@@ -14,10 +14,11 @@ material = SubResource("StandardMaterial3D_ahfeg")
 [sub_resource type="SphereShape3D" id="SphereShape3D_eqhs0"]
 
 [sub_resource type="SystemFont" id="SystemFont_p8vaa"]
+msdf_pixel_range = 30
 
 [node name="Node3D" type="Node3D"]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
-script = ExtResource("1_6l0o2")
+script = ExtResource("1_j7l3l")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
@@ -29,12 +30,12 @@ mesh = SubResource("SphereMesh_k65b5")
 shape = SubResource("SphereShape3D_eqhs0")
 
 [node name="Label3D" type="Label3D" parent="MeshInstance3D"]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5)
 font = SubResource("SystemFont_p8vaa")
-font_size = 13
+font_size = 10
 outline_size = 6
 autowrap_mode = 3
 width = 100.0
-script = ExtResource("2_bh1h6")
+script = ExtResource("2_qww2s")
 
 [connection signal="input_event" from="MeshInstance3D/Area3D" to="." method="_on_area_3d_input_event"]

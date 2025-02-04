@@ -1,9 +1,39 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737816947
-ggj_planet.tscn::PackedScene::5717875451467871619::1737816739::0::1::::<><>::uid://bv1v7stk5s8ks::::res://models/GGJ Planet.blend<>uid://bsuv2n0wxilar::::res://models/GGJ Planet.glb
-icon.svg::CompressedTexture2D::2373643383852355956::1737808304::1737816208::1::::<><>::
-::res://models/::1737817591
-GGJ Planet.blend::PackedScene::3915393399217164506::1737816947::1737816218::1::::<><>::
-GGJ Planet.glb::PackedScene::3692431419996711917::1737809700::1737817541::1::::<><>::
-GGJ Planets2.blend::PackedScene::8439663005137052892::1737808305::1737816376::1::::<><>::
-GGJ Planets_edited.glb::PackedScene::5060175729119874943::1737817502::1737817610::1::::<><>::
+::res://::1738666297
+Bubble.tscn::PackedScene::2120948025742869545::1738666297::0::1::::<><>::res://Scripts/bubble_main.gd<>res://label_3d.gd
+cut_out_hand_pointing (1).png::CompressedTexture2D::394990953793914351::1738001812::1738651827::1::::<><>::
+ggj_planet.tscn::PackedScene::5717875451467871619::1738001812::0::1::::<><>::uid://bv1v7stk5s8ks::::res://models/GGJ Planet.blend<>uid://bsuv2n0wxilar::::res://models/GGJ Planet.glb<>uid://cedgmcliyun4r::::res://models/GGJ Planets_edited.glb
+icon.svg::CompressedTexture2D::2373643383852355956::1738001812::1738651827::1::::<><>::
+label_3d.gd::GDScript::-1::1738001812::0::1::::<>Label3D<>::
+planet_and_clouds.tscn::PackedScene::9052435753798951835::1738666297::0::1::::<><>::uid://cedgmcliyun4r::::res://models/GGJ Planets_edited.glb<>uid://dk0sx7oqy2d67::::res://StandardAlbedo/new_standard_material_3d.tres<>res://Scripts/clouds.gd<>res://Scripts/Global.gd<>res://Scripts/text_manager.gd<>res://Scripts/bubble_spawner.gd<>uid://cdbc2iegykacv::::res://scenes/cursor.tscn
+::res://images/::1738653705
+PoppingHands.png::CompressedTexture2D::4408476249144956631::1738001810::1738653705::1::::<><>::
+SavingHands.png::CompressedTexture2D::6851937031756682782::1738001810::1738653705::1::::<><>::
+StandartHands.png::CompressedTexture2D::215420594951733310::1738001811::1738653705::1::::<><>::
+::res://models/::1738651887
+Bubble.blend::PackedScene::4388184256184774441::1738001812::1738651828::1::::<><>::
+Bubble.glb::PackedScene::9165563805786953139::1738001812::1738651828::1::::<><>::
+GGJ Planet.blend::PackedScene::3915393399217164506::1738001812::1738651830::1::::<><>::
+GGJ Planet.glb::PackedScene::3692431419996711917::1738001812::1738651832::1::::<><>::
+GGJ Planets2.blend::PackedScene::8439663005137052892::1738001812::1738651884::1::::<><>::
+GGJ Planets_edited.glb::PackedScene::5060175729119874943::1738001812::1738651886::1::::<><>::
+Spawn.blend::PackedScene::6784891108278990935::1738001812::1738651887::1::::<><>::
+::res://scenes/::1738666297
+cursor.gd::GDScript::-1::1738653962::0::1::::<>Node3D<>::
+cursor.tscn::PackedScene::4985642353146420713::1738666297::0::1::::<><>::res://scenes/cursor.gd<>uid://bd3d06cibscmc::::res://sounds/Background_Harp_Sound.mp3<>uid://dh30vfj2ofga8::::res://sounds/Popping_Sound.wav<>uid://d0vap4idifj33::::res://sounds/Saving_Sound.wav
+::res://Scripts/::1738654203
+bubble_main.gd::GDScript::-1::1738653157::0::1::::<>Node3D<>::
+bubble_spawn.gd::GDScript::-1::1738001812::0::1::::<>MeshInstance3D<>::
+bubble_spawner.gd::GDScript::-1::1738001812::0::1::::<>Node3D<>::
+clouds.gd::GDScript::-1::1738001812::0::1::::<>MeshInstance3D<>::
+Global.gd::GDScript::-1::1738654203::0::1::::<>Node3D<>::
+text_manager.gd::GDScript::-1::1738001812::0::1::::<>Node<>::
+::res://sounds/::1738653893
+Background_Harp_Sound.mp3::AudioStreamMP3::2655018219225786946::1738001811::1738653893::1::::<><>::
+Popping_Sound.wav::AudioStreamWAV::7709942237916027105::1738001811::1738653893::1::::<><>::
+Saving_Sound.wav::AudioStreamWAV::8957363397456735872::1738001811::1738653893::1::::<><>::
+Winning_Good_Sound.wav::AudioStreamWAV::7684636433185837046::1738001811::1738653893::1::::<><>::
+::res://StandardAlbedo/::1738666297
+new_standard_material_3d.tres::StandardMaterial3D::7913895613575301410::1738666297::0::1::::<><>::
+::res://text_data/::1738001812
+wishes.json::JSON::-1::1738001812::0::1::::<><>::
