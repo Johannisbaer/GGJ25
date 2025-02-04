@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://Scripts/end.gd" id="2_n7w4n"]
 
 [sub_resource type="SystemFont" id="SystemFont_jufvs"]
+subpixel_positioning = 0
 
 [sub_resource type="LabelSettings" id="LabelSettings_x3sly"]
 font = SubResource("SystemFont_jufvs")

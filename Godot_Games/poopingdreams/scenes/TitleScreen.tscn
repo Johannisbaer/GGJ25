@@ -61,6 +61,7 @@ color = Color(0.119669, 0.116351, 0.162681, 1)
 
 [node name="StartButton" type="Button" parent="Label"]
 light_mask = 524289
+layout_mode = 0
 offset_left = 290.0
 offset_top = -5.0
 offset_right = 488.0
