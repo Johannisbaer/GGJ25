@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://ch115kiy3p7dh"]
+
+[ext_resource type="Script" path="res://Scripts/Logbook.gd" id="1_c57vv"]
+[ext_resource type="Script" path="res://Scripts/end.gd" id="2_n7w4n"]
+
+[sub_resource type="SystemFont" id="SystemFont_jufvs"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_x3sly"]
+font = SubResource("SystemFont_jufvs")
+font_size = 22
+
+[node name="LogScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_c57vv")
+
+[node name="TextBoxPanel" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(400, 237)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -426.0
+offset_top = 20.0
+offset_right = -26.0
+offset_bottom = 257.0
+grow_horizontal = 0
+
+[node name="TextLabel" type="RichTextLabel" parent="TextBoxPanel"]
+visible = false
+layout_mode = 2
+offset_right = 1.0
+scroll_active = false
+tab_size = 5
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 709.0
+offset_top = 76.0
+offset_right = 1870.0
+offset_bottom = 205.0
+label_settings = SubResource("LabelSettings_x3sly")
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 7.0
+offset_right = 90.0
+offset_bottom = 73.0
+text = "End"
+script = ExtResource("2_n7w4n")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

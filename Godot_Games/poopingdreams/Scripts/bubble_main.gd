@@ -17,21 +17,19 @@ var outcome_popped: String = ""
 var score_popped: int = 0
 var score_granted: int = 0
 
+# Define the function before _ready()
 func initialize_from_global() -> void:
-	# Fetch the data from the highest index in the Global dictionary
 	if Global.spawns.size() > 0:
 		var highest_index = Global.spawn_index - 1
 		var wish_data = Global.spawns.get(highest_index, null)
 		
 		if wish_data:
-			# Assign the data to variables
 			wish = wish_data.get("wish", "")
 			outcome_granted = wish_data.get("outcome_granted", "")
 			outcome_popped = wish_data.get("outcome_popped", "")
-			score_popped = int(wish_data.get("score_popped", "0"))
-			score_granted = int(wish_data.get("score_granted", "0"))
+			score_popped = int(wish_data.get("rating_outcome_popped", "0"))
+			score_granted = int(wish_data.get("rating_outcome_granted", "0"))
 			
-			# Initialize Label3D with the wish
 			var label = $Label3D
 			if label:
 				label.text = wish
@@ -39,64 +37,92 @@ func initialize_from_global() -> void:
 	else:
 		print("No spawns available in Global.spawns.")
 
+func _ready() -> void:
+	initialize_from_global()
+
+	# Initialize random direction
+	var max_angle = PI
+	var min_angle_diff = deg_to_rad(30)
+	var random_angle = 0.0
+
+	while true:
+		random_angle = randf_range(0, max_angle)
+		if abs(random_angle - last_angle) >= min_angle_diff:
+			break
+	last_angle = random_angle
+
+	var x = cos(random_angle) * horizontal_speed
+	var z = sin(random_angle) * z_speed
+	var y = travel_speed
+
+	direction = Vector3(x, y, z).normalized()
+	
+	var slowdown_factor = 1.0 - (slowdown_percentage / 100.0)
+	direction *= slowdown_factor
+
+	set_process(true)
+
 func adjust_label_to_fit() -> void:
 	var label = $Label3D
 	if label:
 		var text_mesh = label.mesh
 		if text_mesh and text_mesh is TextMesh:
-			var mesh_size = $MeshInstance3D.get_aabb().size  # Mesh dimensions
+			var mesh_size = $MeshInstance3D.get_aabb().size
 			var text_size = text_mesh.size
 
-			# Adjust text scale to fit the mesh dimensions
 			if text_size.x > 0 and text_size.y > 0:
 				var scale_factor_x = mesh_size.x / text_size.x
 				var scale_factor_y = mesh_size.y / text_size.y
 				var scale_factor = min(scale_factor_x, scale_factor_y)
 				label.scale = Vector3(scale_factor, scale_factor, scale_factor)
 
-func _ready() -> void:
-	# Call the method to fetch data and initialize the bubble
-	initialize_from_global()
-
-	# Randomize direction along x-axis from 0 to 180 degrees
-	var max_angle = PI  # Represents 180 degrees
-	var min_angle_diff = deg_to_rad(30)
-	var random_angle = 0.0
-
-	while true:
-		random_angle = randf_range(0, max_angle)  # Range from 0 to PI radians
-		if abs(random_angle - last_angle) >= min_angle_diff:
-			break
-	last_angle = random_angle
-
-	# Adjusting to consider an x-axis range of 0 to 180 degrees
-	var x = cos(random_angle) * horizontal_speed
-	var z = sin(random_angle) * z_speed  # Use sin for the z component now
-	var y = travel_speed     # y can be constant or another calculation, depending on desired behavior
-
-	direction = Vector3(x, y, z).normalized()
-	set_process(true)
-	
-	# Apply the slowdown percentage
-	var slowdown_factor = 1.0 - (slowdown_percentage / 100.0)
-	direction *= slowdown_factor
-	
-	set_process(true)
-
 func _process(delta: float) -> void:
-	# Move the entire Bubble node (mesh and collision follow automatically)
 	global_transform.origin += direction * delta
 	time_alive += delta
 	if time_alive >= lifespan:
 		queue_free()
 
 func _on_area_3d_input_event(camera: Node, event: InputEvent, event_position: Vector3, normal: Vector3, shape_idx: int) -> void:
-	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		_on_bubble_clicked()
+	if event is InputEventMouseButton and event.pressed:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			_on_bubble_clicked_left()
+		elif event.button_index == MOUSE_BUTTON_RIGHT:
+			_on_bubble_clicked_right()
 
-func _on_bubble_clicked() -> void:
-	print("Bubble clicked!")
+func _on_bubble_clicked_left() -> void:
+	print("Bubble clicked with left mouse button!")
 	print("Wish:", wish)
+	Global.play_popping_sound = true
 	print("Outcome Popped:", outcome_popped)
+	Global.outcome = outcome_popped
 	print("Score Popped:", score_popped)
+	Global.world_happieness = Global.world_happieness + score_popped
+	print("GH: ", Global.world_happieness)
+	queue_free()
+
+func _on_bubble_clicked_right() -> void:
+	print("Bubble clicked with right mouse button!")
+	print("Wish:", wish)
+
+	# Create a unique material override for this instance
+	var mesh_instance = $MeshInstance3D
+	if mesh_instance and mesh_instance.mesh:
+		# Check if there's an existing override; if not, duplicate the current material
+		if not mesh_instance.material_override:
+			var original_material = mesh_instance.mesh.surface_get_material(0)
+			if original_material:
+				mesh_instance.material_override = original_material.duplicate()
+
+		# Change the color on the material override
+		var material_override = mesh_instance.material_override
+		if material_override is StandardMaterial3D:
+			material_override.albedo_color = Color(1.0, 0.84, 0.0)  # Light gold color
+
+	Global.play_saving_sound = true
+	print("Outcome Granted:", outcome_granted)
+	Global.outcome = outcome_granted
+	print("Score Granted:", score_granted)
+	Global.world_happieness = Global.world_happieness + score_granted
+	print("GH: ", Global.world_happieness)
+	await get_tree().create_timer(2).timeout
 	queue_free()

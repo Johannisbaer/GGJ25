@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/cursor.gd" id="1_x4dov"]
 [ext_resource type="AudioStream" uid="uid://bd3d06cibscmc" path="res://sounds/Background_Harp_Sound.mp3" id="2_p3ka6"]
-[ext_resource type="AudioStream" uid="uid://dh30vfj2ofga8" path="res://sounds/Popping_Sound.wav" id="3_11oop"]
+[ext_resource type="AudioStream" uid="uid://beb7qff2r2gdp" path="res://sounds/Popping_Sound.mp3" id="3_fxd5f"]
 [ext_resource type="AudioStream" uid="uid://d0vap4idifj33" path="res://sounds/Saving_Sound.wav" id="4_5y8mx"]
 
 [node name="Cursor_RootNode" type="Node3D"]
@@ -14,10 +14,13 @@ scale = Vector2(0.5, 0.5)
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_p3ka6")
+volume_db = -16.629
 autoplay = true
 
-[node name="PoppingSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_11oop")
+[node name="Popping_Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_fxd5f")
+mix_target = 2
+playback_type = 1
 
-[node name="SavingSound" type="AudioStreamPlayer" parent="."]
+[node name="Saving_Sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_5y8mx")

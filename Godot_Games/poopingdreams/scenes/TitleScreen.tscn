@@ -1,0 +1,72 @@
+[gd_scene load_steps=4 format=3 uid="uid://dt3y6ajwc58fd"]
+
+[ext_resource type="Texture2D" uid="uid://dq601sednednt" path="res://images/image0.jpeg" id="1_fbokc"]
+[ext_resource type="Script" path="res://Scripts/title_screen.gd" id="1_wvkcf"]
+
+[sub_resource type="Theme" id="Theme_30cyj"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 252.0
+offset_bottom = 228.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_30cyj")
+script = ExtResource("1_wvkcf")
+
+[node name="Label" type="Label" parent="."]
+layout_direction = 2
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -502.0
+offset_top = -329.0
+offset_right = 240.0
+offset_bottom = -192.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 100
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Image0" type="Sprite2D" parent="Label"]
+show_behind_parent = true
+position = Vector2(385, 203)
+scale = Vector2(0.942871, 0.844727)
+texture = ExtResource("1_fbokc")
+
+[node name="Credits" type="Label" parent="Label/Image0"]
+offset_left = -356.358
+offset_top = 473.526
+offset_right = 383.642
+offset_bottom = 552.526
+theme_override_font_sizes/font_size = 30
+text = "Created by: Johannes, Oana, Reto, Cristian, Arianna"
+horizontal_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="Label/Image0"]
+show_behind_parent = true
+offset_left = -2171.29
+offset_top = -1881.67
+offset_right = 2277.71
+offset_bottom = 1692.33
+mouse_filter = 1
+color = Color(0.119669, 0.116351, 0.162681, 1)
+
+[node name="StartButton" type="Button" parent="Label"]
+light_mask = 524289
+offset_left = 290.0
+offset_top = -5.0
+offset_right = 488.0
+offset_bottom = 93.0
+theme_override_font_sizes/font_size = 50
+action_mode = 0
+text = "Start"
+
+[connection signal="pressed" from="Label/StartButton" to="." method="_on_start_button_pressed"]
