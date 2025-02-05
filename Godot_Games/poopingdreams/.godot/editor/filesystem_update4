@@ -4,3 +4,6 @@ res://scenes/TitleScreen.tscn
 res://scenes/Bubble.tscn
 res://scenes/cursor.tscn
 res://scenes/LogScreen.tscn
+res://Scripts/end.gd
+res://Scripts/Logbook.gd
+res://Scripts/progress_bar.gd

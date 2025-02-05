@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://ch115kiy3p7dh"]
+[gd_scene load_steps=9 format=3 uid="uid://ch115kiy3p7dh"]
 
 [ext_resource type="Script" path="res://Scripts/Logbook.gd" id="1_c57vv"]
 [ext_resource type="Script" path="res://Scripts/end.gd" id="2_n7w4n"]
+[ext_resource type="Script" path="res://Scripts/progress_bar.gd" id="3_7yjcs"]
+[ext_resource type="Texture2D" uid="uid://c4venwrvigg8u" path="res://images/SavingHands.png" id="4_rkxpk"]
 
 [sub_resource type="SystemFont" id="SystemFont_jufvs"]
 subpixel_positioning = 0
@@ -9,6 +11,20 @@ subpixel_positioning = 0
 [sub_resource type="LabelSettings" id="LabelSettings_x3sly"]
 font = SubResource("SystemFont_jufvs")
 font_size = 22
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fa36b"]
+bg_color = Color(0.606871, 0.120187, 0.0745148, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dvta0"]
+bg_color = Color(0.607997, 0.63338, 0.0964885, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
 
 [node name="LogScreen" type="Control"]
 layout_mode = 3
@@ -18,26 +34,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_c57vv")
-
-[node name="TextBoxPanel" type="Panel" parent="."]
-visible = false
-custom_minimum_size = Vector2(400, 237)
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -426.0
-offset_top = 20.0
-offset_right = -26.0
-offset_bottom = 257.0
-grow_horizontal = 0
-
-[node name="TextLabel" type="RichTextLabel" parent="TextBoxPanel"]
-visible = false
-layout_mode = 2
-offset_right = 1.0
-scroll_active = false
-tab_size = 5
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
@@ -57,5 +53,50 @@ offset_right = 90.0
 offset_bottom = 73.0
 text = "End"
 script = ExtResource("2_n7w4n")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(1000, 50)
+layout_direction = 1
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -500.0
+offset_top = 200.0
+offset_right = 500.0
+offset_bottom = 250.0
+grow_horizontal = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_fa36b")
+theme_override_styles/fill = SubResource("StyleBoxFlat_dvta0")
+min_value = -100.0
+step = 1.0
+allow_greater = true
+allow_lesser = true
+show_percentage = false
+script = ExtResource("3_7yjcs")
+
+[node name="Sprite2D" type="Sprite2D" parent="ProgressBar"]
+modulate = Color(0.885724, 0.875598, 0.871249, 1)
+position = Vector2(500, 20)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("4_rkxpk")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ProgressBar"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -95.5
+offset_top = 5.0
+offset_right = 95.5
+offset_bottom = 28.0
+grow_horizontal = 2
+grow_vertical = 0
+bbcode_enabled = true
+text = "World Happieness Meter"
+fit_content = true
+autowrap_mode = 0
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

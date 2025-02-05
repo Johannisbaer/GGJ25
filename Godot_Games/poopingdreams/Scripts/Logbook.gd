@@ -2,7 +2,7 @@ extends Control
 
 @onready var outcome_label = $Label
 
-var display_duration = 3.0  # Duration to display the label before fading out (in seconds)
+var display_duration = 3.5  # Duration to display the label before fading out (in seconds)
 var fade_duration = 1.0     # Duration of the fade-out effect (in seconds)
 var timer = 0.0             # Timer to track time elapsed
 var is_fading = false       # Flag to indicate if the label is currently fading

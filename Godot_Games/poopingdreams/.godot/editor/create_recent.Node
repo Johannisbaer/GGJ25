@@ -1,3 +1,6 @@
+RichTextLabel
+Sprite2D
+ProgressBar
 Button
 Label
 ScrollContainer
@@ -5,10 +8,8 @@ AudioStreamPlayer
 Node
 AudioStreamPlayer3D
 ColorRect
-Sprite2D
 CanvasLayer
 Node3D
 AnimationPlayer
 DirectionalLight3D
 MeshInstance3D
-Camera3D
