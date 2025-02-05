@@ -10,8 +10,6 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 252.0
-offset_bottom = 228.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_30cyj")
@@ -25,10 +23,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -502.0
-offset_top = -329.0
-offset_right = 240.0
-offset_bottom = -192.0
+offset_left = -388.0
+offset_top = -215.0
+offset_right = 354.0
+offset_bottom = -78.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 100
@@ -37,8 +35,8 @@ vertical_alignment = 1
 
 [node name="Image0" type="Sprite2D" parent="Label"]
 show_behind_parent = true
-position = Vector2(385, 203)
-scale = Vector2(0.942871, 0.844727)
+position = Vector2(382, 239)
+scale = Vector2(1.19312, 1.08154)
 texture = ExtResource("1_fbokc")
 
 [node name="Credits" type="Label" parent="Label/Image0"]
@@ -62,10 +60,10 @@ color = Color(0.119669, 0.116351, 0.162681, 1)
 [node name="StartButton" type="Button" parent="Label"]
 light_mask = 524289
 layout_mode = 0
-offset_left = 290.0
-offset_top = -5.0
-offset_right = 488.0
-offset_bottom = 93.0
+offset_left = 265.0
+offset_top = -26.0
+offset_right = 516.0
+offset_bottom = 111.0
 theme_override_font_sizes/font_size = 50
 action_mode = 0
 text = "Start"

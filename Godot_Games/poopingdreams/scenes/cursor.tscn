@@ -16,6 +16,7 @@ scale = Vector2(0.5, 0.5)
 stream = ExtResource("2_p3ka6")
 volume_db = -16.629
 autoplay = true
+parameters/looping = true
 
 [node name="Popping_Sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_fxd5f")

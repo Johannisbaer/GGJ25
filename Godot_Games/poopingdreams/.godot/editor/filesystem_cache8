@@ -1,17 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1738738977
+::res://::1738751420
 cut_out_hand_pointing (1).png::CompressedTexture2D::394990953793914351::1738001812::1738651827::1::::<><>::
 ggj_planet.tscn::PackedScene::5717875451467871619::1738001812::0::1::::<><>::uid://bv1v7stk5s8ks::::res://models/GGJ Planet.blend<>uid://bsuv2n0wxilar::::res://models/GGJ Planet.glb<>uid://cedgmcliyun4r::::res://models/GGJ Planets_edited.glb
 icon.svg::CompressedTexture2D::2373643383852355956::1738001812::1738651827::1::::<><>::
 label_3d.gd::GDScript::-1::1738001812::0::1::::<>Label3D<>::
-::res://images/::1738736939
-background.jpg::CompressedTexture2D::2511228382863245575::1738707709::1738707799::1::::<><>::
-ComfyUI_00012_.png::CompressedTexture2D::5570545677237240410::1738707901::1738707947::1::::<><>::
+::res://images/::1738739385
 ComfyUI_00013_.png::CompressedTexture2D::345583560850590260::1738736897::1738738988::1::::<><>::
 image0.jpeg::CompressedTexture2D::8347844566877723305::1738672211::1738684714::1::::<><>::
-NightSkyHDRI007_12K-TONEMAPPED.jpg::CompressedTexture2D::9144301631216708131::1738708126::1738708285::1::::<><>::
-NightSkyHDRI008_2K-TONEMAPPED.jpg::CompressedTexture2D::8644821260467621796::1738707286::1738707398::1::::<><>::
-NightSkyHDRI013_8K-TONEMAPPED.jpg::CompressedTexture2D::7594991525784140866::1738707479::1738707529::1::::<><>::
 PoppingHands.png::CompressedTexture2D::4408476249144956631::1738001810::1738653705::1::::<><>::
 SavingHands.png::CompressedTexture2D::6851937031756682782::1738001810::1738653705::1::::<><>::
 StandartHands.png::CompressedTexture2D::215420594951733310::1738001811::1738653705::1::::<><>::
@@ -23,22 +18,23 @@ GGJ Planet.glb::PackedScene::3692431419996711917::1738001812::1738651832::1::::<
 GGJ Planets2.blend::PackedScene::8439663005137052892::1738001812::1738651884::1::::<><>::
 GGJ Planets_edited.glb::PackedScene::5060175729119874943::1738001812::1738651886::1::::<><>::
 Spawn.blend::PackedScene::6784891108278990935::1738001812::1738651887::1::::<><>::
-::res://scenes/::1738709188
-Bubble.tscn::PackedScene::2120948025742869545::1738709051::0::1::::<><>::res://Scripts/bubble_main.gd<>res://label_3d.gd
+::res://scenes/::1738743636
+Bubble.tscn::PackedScene::2120948025742869545::1738743559::0::1::::<><>::res://Scripts/bubble_main.gd<>res://label_3d.gd
 cursor.gd::GDScript::-1::1738695518::0::1::::<>Node3D<>::
-cursor.tscn::PackedScene::4985642353146420713::1738709051::0::1::::<><>::res://scenes/cursor.gd<>uid://bd3d06cibscmc::::res://sounds/Background_Harp_Sound.mp3<>uid://beb7qff2r2gdp::::res://sounds/Popping_Sound.mp3<>uid://d0vap4idifj33::::res://sounds/Saving_Sound.wav
-LogScreen.tscn::PackedScene::5319469848807488933::1738709051::0::1::::<><>::res://Scripts/Logbook.gd<>res://Scripts/end.gd
-planet_and_clouds.tscn::PackedScene::9052435753798951835::1738709188::0::1::::<><>::uid://cedgmcliyun4r::::res://models/GGJ Planets_edited.glb<>res://Scripts/Global.gd<>res://Scripts/clouds.gd<>uid://d3jtkurvbe3t4::::res://images/NightSkyHDRI007_12K-TONEMAPPED.jpg<>uid://dk0sx7oqy2d67::::res://StandardAlbedo/new_standard_material_3d.tres<>res://Scripts/text_manager.gd<>res://Scripts/bubble_spawner.gd<>uid://cdbc2iegykacv::::res://scenes/cursor.tscn<>uid://ch115kiy3p7dh::::res://scenes/LogScreen.tscn
-TitleScreen.tscn::PackedScene::8552165239659748289::1738709050::0::1::::<><>::uid://dq601sednednt::::res://images/image0.jpeg<>res://Scripts/title_screen.gd
-::res://Scripts/::1738706185
+cursor.tscn::PackedScene::4985642353146420713::1738743559::0::1::::<><>::res://scenes/cursor.gd<>uid://bd3d06cibscmc::::res://sounds/Background_Harp_Sound.mp3<>uid://beb7qff2r2gdp::::res://sounds/Popping_Sound.mp3<>uid://d0vap4idifj33::::res://sounds/Saving_Sound.wav
+LogScreen.tscn::PackedScene::5319469848807488933::1738743636::0::1::::<><>::res://Scripts/Logbook.gd<>res://Scripts/end.gd<>res://Scripts/progress_bar.gd<>uid://c4venwrvigg8u::::res://images/SavingHands.png
+planet_and_clouds.tscn::PackedScene::9052435753798951835::1738743559::0::1::::<><>::uid://cedgmcliyun4r::::res://models/GGJ Planets_edited.glb<>res://Scripts/Global.gd<>res://Scripts/clouds.gd<>uid://e6nyfvt6o3rc::::res://images/ComfyUI_00013_.png<>uid://dk0sx7oqy2d67::::res://StandardAlbedo/new_standard_material_3d.tres<>res://Scripts/text_manager.gd<>res://Scripts/bubble_spawner.gd<>uid://cdbc2iegykacv::::res://scenes/cursor.tscn<>uid://ch115kiy3p7dh::::res://scenes/LogScreen.tscn
+TitleScreen.tscn::PackedScene::8552165239659748289::1738743559::0::1::::<><>::uid://dq601sednednt::::res://images/image0.jpeg<>res://Scripts/title_screen.gd
+::res://Scripts/::1738742637
 bubble_main.gd::GDScript::-1::1738706185::0::1::::<>Node3D<>::
 bubble_spawn.gd::GDScript::-1::1738001812::0::1::::<>MeshInstance3D<>::
 bubble_spawner.gd::GDScript::-1::1738666425::0::1::::<>Node3D<>::
 clouds.gd::GDScript::-1::1738001812::0::1::::<>MeshInstance3D<>::
-end.gd::GDScript::-1::1738705547::0::1::::<>Button<>::
+end.gd::GDScript::-1::1738739047::0::1::::<>Button<>::
 Global.gd::GDScript::-1::1738697197::0::1::::<>Node3D<>::
-Logbook.gd::GDScript::-1::1738704302::0::1::::<>Control<>::
+Logbook.gd::GDScript::-1::1738739161::0::1::::<>Control<>::
 MainScene_backup.gd::GDScript::-1::1738703450::0::1::::<>Control<>::
+progress_bar.gd::GDScript::-1::1738742637::0::1::::<>ProgressBar<>::
 text_manager.gd::GDScript::-1::1738001812::0::1::::<>Node<>::
 title_screen.gd::GDScript::-1::1738686979::0::1::::<>Control<>::
 ::res://shaders/::1738685412
@@ -49,7 +45,7 @@ Popping_Sound.mp3::AudioStreamMP3::2671212224061610773::1738691516::1738691545::
 Popping_Sound.wav::AudioStreamWAV::7709942237916027105::1738001811::1738653893::1::::<><>::
 Saving_Sound.wav::AudioStreamWAV::8957363397456735872::1738001811::1738653893::1::::<><>::
 Winning_Good_Sound.wav::AudioStreamWAV::7684636433185837046::1738001811::1738653893::1::::<><>::
-::res://StandardAlbedo/::1738707403
-new_standard_material_3d.tres::StandardMaterial3D::7913895613575301410::1738707403::0::1::::<><>::
+::res://StandardAlbedo/::1738738993
+new_standard_material_3d.tres::StandardMaterial3D::7913895613575301410::1738738993::0::1::::<><>::
 ::res://text_data/::1738001812
 wishes.json::JSON::-1::1738001812::0::1::::<><>::

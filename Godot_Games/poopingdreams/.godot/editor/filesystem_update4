@@ -1,9 +1,6 @@
-res://scenes/planet_and_clouds.tscn
-res://StandardAlbedo/new_standard_material_3d.tres
 res://scenes/TitleScreen.tscn
+res://StandardAlbedo/new_standard_material_3d.tres
+res://scenes/planet_and_clouds.tscn
 res://scenes/Bubble.tscn
 res://scenes/cursor.tscn
 res://scenes/LogScreen.tscn
-res://Scripts/end.gd
-res://Scripts/Logbook.gd
-res://Scripts/progress_bar.gd
